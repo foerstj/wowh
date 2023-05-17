@@ -2,9 +2,9 @@
 {
 	source_region_guid = 0x00000005;
 	source_region_name = hunter_house_crypt;
-	[t:stitch_editor,n:start]
+	[t:stitch_editor,n:hunter_house]
 	{
-		dest_region = start;
+		dest_region = hunter_house;
 		[node_ids]
 		{
 			0x0000000a = 0x826E9A2D,1;

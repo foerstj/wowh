@@ -12,9 +12,9 @@
 			0x00000006 = 0x196AF17F,4;
 		}
 	}
-	[t:stitch_editor,n:start]
+	[t:stitch_editor,n:hunter_house]
 	{
-		dest_region = start;
+		dest_region = hunter_house;
 		[node_ids]
 		{
 			0x00000007 = 0x2AE5E9BF,6;
