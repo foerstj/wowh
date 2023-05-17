@@ -423,7 +423,7 @@
 	[mind]
 	{
 	  b actor_auto_fidgets = false;
-		jat_talk = world\ai\jobs\actors\good\ordim_keller.skrit;
+		jat_talk = world\ai\jobs\actors\good\ordim_cellar.skrit;
 	}
 	[placement]
 	{
