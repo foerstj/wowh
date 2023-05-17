@@ -1,7 +1,7 @@
 [stitch_helper_data]
 {
 	source_region_guid = 0x00000008;
-	source_region_name = zur_stadt_akt1_a1;
+	source_region_name = town;
 	[t:stitch_editor,n:cave_field2town]
 	{
 		dest_region = cave_field2town;

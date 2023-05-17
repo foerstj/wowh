@@ -10,9 +10,9 @@
 			0x0000000e = 0xD1247B18,6;
 		}
 	}
-	[t:stitch_editor,n:zur_stadt_akt1_a1]
+	[t:stitch_editor,n:town]
 	{
-		dest_region = zur_stadt_akt1_a1;
+		dest_region = town;
 		[node_ids]
 		{
 			0x0000000f = 0xF053BFAF,6;
