@@ -28,7 +28,7 @@
 	{
 		[conversations]
 		{
-			* = azunite_kaufen;
+			* = azunite_shopping;
 			* = conv_miranda_2;
 		}
 	}

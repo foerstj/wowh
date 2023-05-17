@@ -69,7 +69,7 @@ state Talk$
             m_Go$.GetConversation.RSSelectConversation( "conv_miranda_2" );
 //                DumpMain$; // Wirft alles raus
     } else {
-      m_Go$.GetConversation.RSSelectConversation( "azunite_kaufen" );
+      m_Go$.GetConversation.RSSelectConversation( "azunite_shopping" );
     }
 
     m_Go$.GetConversation.RSActivateDialogue();
