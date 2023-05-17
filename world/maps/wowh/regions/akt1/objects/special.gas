@@ -125,7 +125,7 @@
 				action* = fade_nodes(0x00000002,1,-1,-1,"in");
 				action* = fade_nodes(0x00000004,-1,-1,-1,"out:instant");
 				action* = mood_change("map_world_fh_r1_1");
-				action* = set_player_world_location("waldhaus");
+				action* = set_player_world_location("forest_house");
 				action* = fade_nodes(0x00000002,2,-1,-1,"in:instant"), doc("kellertreppe");
 				action* = fade_nodes(0x00000003,-1,-1,-1,"in:instant"), doc("keller selbst");
 			  b can_self_destruct = true;
@@ -159,7 +159,7 @@
 				action* = fade_nodes(0x00000002,1,-1,-1,"out:black");
 				action* = fade_nodes(0x00000004,-1,-1,-1,"in:instant");
 				action* = mood_change("map_world_hc_r1_1");
-				action* = set_player_world_location("waldhaus_dungeon");
+				action* = set_player_world_location("forest_house_dungeon");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(2.000000,1.000000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -334,7 +334,7 @@
 			[*]
 			{
 				action* = mood_change("map_world_fh_r1_1");
-				action* = set_player_world_location("waldhaus");
+				action* = set_player_world_location("forest_house");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(5.000000,"on_every_enter");
 			  f delay = 0.000000;
