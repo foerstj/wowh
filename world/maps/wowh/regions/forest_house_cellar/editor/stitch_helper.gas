@@ -1,7 +1,7 @@
 [stitch_helper_data]
 {
 	source_region_guid = 0x00000003;
-	source_region_name = waldhaus_keller_akt1;
+	source_region_name = forest_house_cellar;
 	[t:stitch_editor,n:forest_house]
 	{
 		dest_region = forest_house;

@@ -12,9 +12,9 @@
 			0x00000006 = 0x1E40F06C,2;
 		}
 	}
-	[t:stitch_editor,n:waldhaus_keller_akt1]
+	[t:stitch_editor,n:forest_house_cellar]
 	{
-		dest_region = waldhaus_keller_akt1;
+		dest_region = forest_house_cellar;
 		[node_ids]
 		{
 			0x00000001 = 0xAED686D7,2;
