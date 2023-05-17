@@ -20,9 +20,9 @@
 			0x0000000c = 0x0154DF0D,2;
 		}
 	}
-	[t:stitch_editor,n:waldhaus_dungoen_zu_start]
+	[t:stitch_editor,n:dungeon_forest2hunter]
 	{
-		dest_region = waldhaus_dungoen_zu_start;
+		dest_region = dungeon_forest2hunter;
 		[node_ids]
 		{
 			0x00000007 = 0xA9D50E73,1;
