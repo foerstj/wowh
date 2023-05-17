@@ -1,7 +1,7 @@
 [stitch_helper_data]
 {
 	source_region_guid = 0x00000006;
-	source_region_name = feld;
+	source_region_name = field;
 	[t:stitch_editor,n:start]
 	{
 		dest_region = start;

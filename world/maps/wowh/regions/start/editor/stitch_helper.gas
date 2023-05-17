@@ -2,9 +2,9 @@
 {
 	source_region_guid = 0x00000001;
 	source_region_name = start;
-	[t:stitch_editor,n:feld]
+	[t:stitch_editor,n:field]
 	{
-		dest_region = feld;
+		dest_region = field;
 		[node_ids]
 		{
 			0x0000000d = 0x20FCF076,2;

@@ -2,9 +2,9 @@
 {
 	source_region_guid = 0x00000007;
 	source_region_name = zur_stadt_akt1;
-	[t:stitch_editor,n:feld]
+	[t:stitch_editor,n:field]
 	{
-		dest_region = feld;
+		dest_region = field;
 		[node_ids]
 		{
 			0x0000000e = 0xD1247B18,6;
