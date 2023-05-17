@@ -2,6 +2,16 @@
 {
 	source_region_guid = 0x00000001;
 	source_region_name = hunter_house;
+	[t:stitch_editor,n:dungeon_forest2hunter]
+	{
+		dest_region = dungeon_forest2hunter;
+		[node_ids]
+		{
+			0x00000007 = 0xA9D50E73,1;
+			0x00000008 = 0xA9D50E73,2;
+			0x00000009 = 0xA9D50E73,3;
+		}
+	}
 	[t:stitch_editor,n:field]
 	{
 		dest_region = field;
@@ -18,16 +28,6 @@
 			0x0000000a = 0x0154DF0D,4;
 			0x0000000b = 0x0154DF0D,3;
 			0x0000000c = 0x0154DF0D,2;
-		}
-	}
-	[t:stitch_editor,n:dungeon_forest2hunter]
-	{
-		dest_region = dungeon_forest2hunter;
-		[node_ids]
-		{
-			0x00000007 = 0xA9D50E73,1;
-			0x00000008 = 0xA9D50E73,2;
-			0x00000009 = 0xA9D50E73,3;
 		}
 	}
 }

@@ -2,20 +2,20 @@
 {
 	source_region_guid = 0x00000006;
 	source_region_name = field;
-	[t:stitch_editor,n:hunter_house]
-	{
-		dest_region = hunter_house;
-		[node_ids]
-		{
-			0x0000000d = 0x42A0EA2A,2;
-		}
-	}
 	[t:stitch_editor,n:cave_field2town]
 	{
 		dest_region = cave_field2town;
 		[node_ids]
 		{
 			0x0000000e = 0xCA826354,6;
+		}
+	}
+	[t:stitch_editor,n:hunter_house]
+	{
+		dest_region = hunter_house;
+		[node_ids]
+		{
+			0x0000000d = 0x42A0EA2A,2;
 		}
 	}
 }

@@ -2,13 +2,13 @@
 {
 	[t:stitch_index,n:0x00000001]
 	{
+		* = 0xa9d50e73,1,0x2ae5e9bf,6;
+		* = 0xa9d50e73,2,0x2ae5e9bf,5;
+		* = 0xa9d50e73,3,0x2ae5e9bf,4;
 		* = 0x20fcf076,2,0x42a0ea2a,2;
 		* = 0x0154df0d,4,0x826e9a2d,1;
 		* = 0x0154df0d,3,0x826e9a2d,2;
 		* = 0x0154df0d,2,0x826e9a2d,3;
-		* = 0xa9d50e73,1,0x2ae5e9bf,6;
-		* = 0xa9d50e73,2,0x2ae5e9bf,5;
-		* = 0xa9d50e73,3,0x2ae5e9bf,4;
 	}
 	[t:stitch_index,n:0x00000002]
 	{
@@ -40,8 +40,8 @@
 	}
 	[t:stitch_index,n:0x00000006]
 	{
-		* = 0x42a0ea2a,2,0x20fcf076,2;
 		* = 0xca826354,6,0xd1247b18,6;
+		* = 0x42a0ea2a,2,0x20fcf076,2;
 	}
 	[t:stitch_index,n:0x00000007]
 	{
