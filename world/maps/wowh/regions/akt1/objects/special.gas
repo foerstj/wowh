@@ -360,7 +360,7 @@
 	[interface_fade]
 	{
 	  f duration = 8;
-		interface = "kapitel_1";
+		interface = "chapter_1";
 	}
 	[placement]
 	{

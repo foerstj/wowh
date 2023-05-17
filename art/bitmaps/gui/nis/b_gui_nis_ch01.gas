@@ -2,6 +2,6 @@
 {
   b dither = true;
   b hasalpha = true;
-	layer1texture1 = b_gui_nis_kap01;
+	layer1texture1 = b_gui_nis_ch01;
   i texturedetail = 0;
 }
