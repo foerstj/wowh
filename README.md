@@ -8,6 +8,10 @@ WOWH means World of Warriors of Hell. Warriors of Hell was a German guild of Dia
 This map is re-buildable and editable. I opened & saved every region in Siege Editor v1.7. The dsmap file can be rebuilt using the batch scripts, provided you have the folder structure of Dungeon Siege, TankCreator and gaspy.
 - SE saves the "required_level" attributes for multiplayer start positions with an "i" in front, which however breaks the level requirement.\
   This is fixed during build by a gaspy script.
+- Renamed the map so there are no conflicts with the original map.\
+  The internal name is *world/maps/wowh*.\
+  The generated file names are *Dungeon Siege/DSLOA/WOWH.dsmap* and *WOWH.dsres*.\
+  The ingame name is *Welt der Warriors of Hell (remastered)*.
 
 ## Attribution
 

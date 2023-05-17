@@ -2,7 +2,7 @@
 {
 	description = "  ---=== Die Legende der Warrios of Hell ===---    Kann Einzeln und im Multiplayer-Modus gespielt werden.";
   b dev_only = false;
-	screen_name = "Welt der Warriors of Hell Version 1.10";
+	screen_name = "Welt der Warriors of Hell (remastered)";
 	timeofday = 0h0m;
   b use_node_mesh_index = false;
   f world_frustum_radius = 45.000000;
