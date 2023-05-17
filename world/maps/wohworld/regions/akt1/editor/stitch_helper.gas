@@ -1,0 +1,24 @@
+[stitch_helper_data]
+{
+	source_region_guid = 0x00000002;
+	source_region_name = akt1;
+	[t:stitch_editor,n:waldhaus_dungoen_zu_start]
+	{
+		dest_region = waldhaus_dungoen_zu_start;
+		[node_ids]
+		{
+			0x00000004 = 0x8459773D,4;
+			0x00000005 = 0x405156A5,3;
+			0x00000006 = 0x1E40F06C,2;
+		}
+	}
+	[t:stitch_editor,n:waldhaus_keller_akt1]
+	{
+		dest_region = waldhaus_keller_akt1;
+		[node_ids]
+		{
+			0x00000001 = 0xAED686D7,2;
+			0x00000002 = 0xAED686D7,3;
+		}
+	}
+}

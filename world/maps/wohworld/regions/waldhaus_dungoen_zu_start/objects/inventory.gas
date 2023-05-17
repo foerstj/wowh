@@ -1,0 +1,21 @@
+[t:potion_health_medium,n:0x004000f3]
+{
+	[placement]
+	{
+	  p position = 2.49049,-1.41155,1.18197,0xd963cbc6;
+	}
+}
+[t:potion_mana_medium,n:0x004000f6]
+{
+	[placement]
+	{
+	  p position = 2.09646,-1.4043,0.275623,0xd963cbc6;
+	}
+}
+[t:book_glb_magic_04,n:0x004000fe]
+{
+	[placement]
+	{
+	  p position = 2.85491,-1.38057,0.0621298,0xd963cbc6;
+	}
+}

@@ -1,0 +1,60 @@
+[aktovia]
+{
+	[text*]
+	{
+		choice = shop;
+		screen_text = "Hallo einsamerer Wanderer. Ich bin Aktovia die hohe Priesterin von Koritschtown.
+Ich kann Euch Tränke und Zauber gegen wenig Gold anbieten.";
+	  f scroll_rate = 10.000000;
+	}
+}
+[gothar]
+{
+	[text*]
+	{
+		choice = buy_packmule;
+		screen_text = "Ahhhh einsamerer Wanderer. Mein Name ist Gothar. Ich bin der Schmid in Koritschtown.Wen Du Waffen und Rüstungen brauchst, dann  frage im Haus nach. Ich fertige die waffnen und Rüstungen nur an.
+";
+	  f scroll_rate = 10.000000;
+	}
+}
+[kelar]
+{
+	[text*]
+	{
+		screen_text = "Ich bin Kelar der Wirt. Seit dem angriff der Krugs laufen die Geschäfte schlecht. Keiner kommt mehr nach Koritschtown und kauft bei mir was.";
+	  f scroll_rate = 10.000000;
+	}
+}
+[rutar]
+{
+	[text*]
+	{
+		screen_text = "Guten Morgen einsamerer Wanderer. Mein Name ist Rutar. Normaler weise habe ich Mulis zu verkaufen, aber die Zeiten für einen Muliverkäufer sind denkbar schlecht.";
+	  f scroll_rate = 10.000000;
+	}
+}
+[sumerka]
+{
+	[text*]
+	{
+		activate_quest* = quest_sumerka;
+	  i order = 0;
+	  b quest_dialogue = true;
+		screen_text = "Guten Morgen einsamerer Wanderer. Ich habe eine bitte an Euch. Mein Bruder Albera ist vor ein paar Tagen zu den Minen aufgebrochen um dem Kampf gegen die dunklen Kreaturen aufzunehmen. Ich habe aber angst, das er das alleine nicht schlaft. Wenn Ihr meine Bruder sehen solltet sag Ihn das er nach Koritschtown zurück kehren  soll.";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		screen_text = "Habt Ihr mein Bruder die Nachricht schon Überbracht?";
+	}
+}
+[morpheus]
+{
+	[text*]
+	{
+		choice = shop;
+		screen_text = "Ich bin Morpheus der Sohn vom Gothar.   Ich verkaufe dir die besten Waffen und Rüstungen in ganz Koritschtown.";
+	  f scroll_rate = 10.000000;
+	}
+}

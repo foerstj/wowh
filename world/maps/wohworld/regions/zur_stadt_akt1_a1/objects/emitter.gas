@@ -1,0 +1,16 @@
+[t:emitter_glb_smoke_01,n:0x008001a1]
+{
+	[placement]
+	{
+	  q orientation = 0,0.986286,0,0.165047;
+	  p position = -1.76992,3.06213,-1.84745,0xa40e23df;
+	}
+}
+[t:emitter_glb_smoke_01,n:0x00800166]
+{
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -2.32889,7.26226,-8.6792,0xfdec2722;
+	}
+}

@@ -1,0 +1,8 @@
+[t:cmd_camera_move,n:0x0020014b]
+{
+	[placement]
+	{
+	  q orientation = 0.0425851,0.975367,-0.216234,-0.00944105;
+	  p position = 2.10833,2.93804,0.665214,0x5e73cf30;
+	}
+}

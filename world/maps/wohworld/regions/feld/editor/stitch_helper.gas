@@ -1,0 +1,21 @@
+[stitch_helper_data]
+{
+	source_region_guid = 0x00000006;
+	source_region_name = feld;
+	[t:stitch_editor,n:start]
+	{
+		dest_region = start;
+		[node_ids]
+		{
+			0x0000000d = 0x42A0EA2A,2;
+		}
+	}
+	[t:stitch_editor,n:zur_stadt_akt1]
+	{
+		dest_region = zur_stadt_akt1;
+		[node_ids]
+		{
+			0x0000000e = 0xCA826354,6;
+		}
+	}
+}

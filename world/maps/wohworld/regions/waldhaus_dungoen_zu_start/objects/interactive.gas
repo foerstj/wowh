@@ -1,0 +1,105 @@
+[t:door_csl_dungeon_07,n:0x0040000e]
+{
+	[placement]
+	{
+	  p position = 0.0407481,-1.74024,0.100291,0x6a56d6db;
+	}
+}
+[t:door_csl_dungeon_07,n:0x00400010]
+{
+	[placement]
+	{
+	  p position = -0.0357958,-1.76002,0.0717621,0xde48b7d4;
+	}
+}
+[t:respawn_statue,n:0x0040000f]
+{
+	[placement]
+	{
+	  q orientation = 0,0.688355,0,0.725374;
+	  p position = 1.28535,-0.5,-0.910881,0x4d49cde0;
+	}
+}
+[t:door_glb_gendungeon_02,n:0x004000d3]
+{
+	[aspect]
+	{
+	  b does_block_path = true;
+	  b draw_shadow = true;
+	}
+	[placement]
+	{
+	  p position = 0.00584411,-1.5,-0.0614223,0x1ca1766f;
+	}
+}
+[t:door_glb_gendungeon_02,n:0x004000ab]
+{
+	[aspect]
+	{
+	  b does_block_path = true;
+	  b draw_shadow = true;
+	}
+	[placement]
+	{
+	  p position = -0.00509262,-1.5,-0.0554256,0xfe11c0c2;
+	}
+}
+[t:door_glb_gendungeon_02,n:0x004000e4]
+{
+	[aspect]
+	{
+	  b does_block_path = true;
+	  b draw_shadow = true;
+	}
+	[placement]
+	{
+	  p position = -0.00890351,-1.5,-0.0423813,0x624f7ad3;
+	}
+}
+[t:door_glb_gendungeon_02,n:0x004000d6]
+{
+	[aspect]
+	{
+	  b does_block_path = true;
+	  b draw_shadow = true;
+	}
+	[placement]
+	{
+	  p position = 0.000308989,-1.5,0.0435257,0xb40a3a83;
+	}
+}
+[t:door_glb_gendungeon_02,n:0x004000d5]
+{
+	[aspect]
+	{
+	  b does_block_path = true;
+	  b draw_shadow = true;
+	}
+	[placement]
+	{
+	  p position = 0.0212479,-1.5,0.00408554,0xcd892cbe;
+	}
+}
+[t:sign_glb_01,n:0x0040003b]
+{
+	[common]
+	{
+		screen_name = "Waldhaus";
+	}
+	[placement]
+	{
+	  p position = 4.23149,-2,5.12512,0xa74b9d4d;
+	}
+}
+[t:sign_glb_01,n:0x0040003c]
+{
+	[common]
+	{
+		screen_name = "Jägerhaus";
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,-1.62921e-007;
+	  p position = 4.41657,-2,4.64679,0xa74b9d4d;
+	}
+}

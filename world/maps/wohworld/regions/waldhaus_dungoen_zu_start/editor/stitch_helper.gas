@@ -1,0 +1,25 @@
+[stitch_helper_data]
+{
+	source_region_guid = 0x00000004;
+	source_region_name = waldhaus_dungoen_zu_start;
+	[t:stitch_editor,n:akt1]
+	{
+		dest_region = akt1;
+		[node_ids]
+		{
+			0x00000004 = 0x09A2658B,3;
+			0x00000005 = 0xD154F26B,6;
+			0x00000006 = 0x196AF17F,4;
+		}
+	}
+	[t:stitch_editor,n:start]
+	{
+		dest_region = start;
+		[node_ids]
+		{
+			0x00000007 = 0x2AE5E9BF,6;
+			0x00000008 = 0x2AE5E9BF,5;
+			0x00000009 = 0x2AE5E9BF,4;
+		}
+	}
+}

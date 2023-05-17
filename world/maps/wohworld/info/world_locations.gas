@@ -1,0 +1,42 @@
+[world_locations]
+{
+//--------------- Waldhaus ----------------
+  [t:location,n:waldhaus]
+  {
+    id = 0101;
+//    screen_name = "die Umgebung des Waldhauses";
+    screen_name = "das Waldhaus";
+  }
+  // für überall --------------------------
+  [t:location,n:secret]
+  {
+    id = 0102;
+    screen_name = "ein Secret";
+  }
+//---------------- Dungoen Waldhaus --------
+  [t:location,n:waldhaus_dungeon]
+  {
+    id = 0103;
+    screen_name = "den Dungeon";
+  }
+//---------------- Jägerhaus ---------------
+  [t:location,n:jaegerhaus]
+  {
+    id = 0104;
+    screen_name = "das Jägerhaus";
+  }
+  [t:location,n:crypt]
+  {
+    id = 0105;
+    screen_name = "die Gruft";
+  }
+
+
+
+
+  [t:location,n:]
+  {
+    id = ;
+    screen_name = "";
+  }
+}

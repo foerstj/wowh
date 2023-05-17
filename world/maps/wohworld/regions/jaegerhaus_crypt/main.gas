@@ -1,0 +1,10 @@
+[t:region,n:region]
+{
+	created = endre,gamestar;
+	description = "Jägerhaus Gruft";
+  x guid = 0x00000005;
+	lastmodified = Superalf,SUPERVISOR;
+	notes = none;
+  i scid_range = 5;
+	se_version = Version - 1.0.0.306;
+}

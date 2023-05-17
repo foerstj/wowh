@@ -1,0 +1,156 @@
+[t:merchant_blacksmith,n:0x0080019b]
+{
+	[common]
+	{
+		screen_name = "Gothar";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = gothar;
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,0.199368,0,0.979925;
+	  p position = -4.94625,-3.08197,-2.30267,0xa40e23df;
+	}
+}
+[t:adwana,n:0x00800167]
+{
+	[common]
+	{
+		screen_name = "Aktovia";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = aktovia;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.92388,0,0.382683;
+	  p position = -5.44649,-2.9,4.92581,0xb9e92729;
+	}
+}
+[t:merchant_barkeep,n:0x0080016a]
+{
+	[common]
+	{
+		screen_name = "Kelar";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = kelar;
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,0.522499,0,0.85264;
+	  p position = -8.3991,-1.5,-3.50404,0xfdec2722;
+	}
+}
+[t:mule_bt_r1,n:0x00800197]
+{
+	[common]
+	{
+		screen_name = "Silberschimmel";
+	}
+	[placement]
+	{
+	  p position = -4.85873,-1.9,5.27419,0x4711ed0e;
+	}
+}
+[t:mule_bt_r1,n:0x00800198]
+{
+	[common]
+	{
+		screen_name = "Goldschimmel";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.333807,0,0.942642;
+	  p position = -5.90726,-1.9,-0.450207,0x4711ed0e;
+	}
+}
+[t:lame_mare,n:0x00800199]
+{
+	[placement]
+	{
+	  q orientation = 0,0.748956,0,0.66262;
+	  p position = -2.04034,-1.9,-1.8577,0x4711ed0e;
+	}
+}
+[t:merchant_packmule,n:0x0080019a]
+{
+	[common]
+	{
+		screen_name = "Rutar";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = rutar;
+		}
+	}
+	[placement]
+	{
+	  p position = -0.823006,-1.9,2.00877,0x4711ed0e;
+	}
+}
+[t:mp_townfolk_female_01,n:0x0080016d]
+{
+	[common]
+	{
+		screen_name = "Sumerka";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = sumerka;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.382683,0,0.92388;
+	  p position = 0.193024,-2.65,-3.911,0x3c66dcce;
+	}
+}
+[t:jonn,n:0x008001bc]
+{
+	[common]
+	{
+		screen_name = "Morpheus";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = morpheus;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.920505,0,0.390731;
+	  p position = 2.59922,-3.1,-2.21244,0xa40e23df;
+	}
+}

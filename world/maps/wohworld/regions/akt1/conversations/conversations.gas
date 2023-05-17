@@ -1,0 +1,28 @@
+[conv_ordim]
+{
+	[text*]
+	{
+		activate_quest* = quest_ordim_keller;
+	  i order = 0;
+		quest_dialog = true;
+		screen_text = "Guten Morgen einsamer Wanderer. Hast Du ein paar Minuten Zeit um die Krugs aus meinen Keller zu vertreiben? Dort lagern meine ganzen Vorräte und ich komme duch die verdammten Krugs dort nicht mehr herran.";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		screen_text = "Hast Du schon meinen Keller von den Krugs befreit ?!";
+	}
+}
+[conv_ordim_2]
+{
+	[text*]
+	{
+	  i order = 0;
+		screen_text = "Ich danke Dir, daß Du den Keller von den Krugs befreit hast. Hier nimm die Flaschen für Deine Reise, und noch einen kleinen Tip: Ich habe vor langer Zeit von einem geheimen Raum in den Dungoens gehört. Ich habe oft danach gesucht, aber ihn nicht gefunden. Vielleicht hast Du ja mehr Glück.";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		screen_text = "Viel Glück, einsamer Wanderer, auf Deiner weiteren Reise !";
+	}
+}

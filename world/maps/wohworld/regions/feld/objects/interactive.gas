@@ -1,0 +1,44 @@
+[t:door_grs_farmhouse,n:0x00600370]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.382683,0,0.92388;
+	  p position = 1.53257,-2.25,-2.7727,0x960d45f5;
+	}
+}
+[t:sign_glb_01,n:0x0060000a]
+{
+	[common]
+	{
+		screen_name = "Koritschtown";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.66262,0,0.748956;
+	  p position = 2.96281,0,-0.39521,0x143b3b14;
+	}
+}
+[t:sign_glb_01,n:0x0060000b]
+{
+	[common]
+	{
+		screen_name = "Jägerhaus";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.870356,0,-0.492424;
+	  p position = 2.62862,0,-0.675434,0x143b3b14;
+	}
+}
+[t:sign_glb_01,n:0x0060000c]
+{
+	[common]
+	{
+		screen_name = "Bauerhof";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.284015,0,0.95882;
+	  p position = 2.59485,0,-0.39031,0x143b3b14;
+	}
+}

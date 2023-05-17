@@ -1,0 +1,29 @@
+[t:rock_grs_breakable_01,n:0x00700028]
+{
+	[placement]
+	{
+	  p position = -1.41776,-5.91913,-4.8635,0x25fc4c38;
+	}
+}
+[t:rock_grs_breakable_01,n:0x00700027]
+{
+	[placement]
+	{
+	  p position = 3.49856,0,1.53384,0xcefe2b3b;
+	}
+}
+[t:rock_grs_breakable_01,n:0x00700026]
+{
+	[placement]
+	{
+	  p position = 2.43125,0,-2.30826,0x85ba708c;
+	}
+}
+[t:rock_grs_breakable_01,n:0x00700025]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = 3.68999,0,-1.53274,0x4e553718;
+	}
+}

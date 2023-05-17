@@ -1,0 +1,51 @@
+[t:rock_beast,n:0x0070004e]
+{
+	[placement]
+	{
+	  p position = -5.48893,-3.91522,-3.44547,0xd584d875;
+	}
+}
+[t:rock_beast,n:0x0070004c]
+{
+	[placement]
+	{
+	  p position = 0.425374,-3.8147e-006,1.16406,0x85ba708c;
+	}
+}
+[t:rock_beast,n:0x0070004d]
+{
+	[placement]
+	{
+	  p position = 0.0579538,-0.258672,0.40541,0xb73abee6;
+	}
+}
+[t:rock_beast,n:0x00700008]
+{
+	[placement]
+	{
+	  p position = 3.6682,-0.258672,0.935741,0x4aadd22c;
+	}
+}
+[t:rock_beast,n:0x00700009]
+{
+	[placement]
+	{
+	  p position = -1.66039,-0.258672,-0.00337791,0xcfedf8e7;
+	}
+}
+[t:rock_beast,n:0x0070000b]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -3.7897,-0.25867,3.78945,0x76a0e3c6;
+	}
+}
+[t:rock_beast,n:0x0070000c]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 1.80631,-1.45867,-3.65,0x3174898c;
+	}
+}

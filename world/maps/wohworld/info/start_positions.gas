@@ -1,0 +1,237 @@
+[start_positions]
+{
+	[t:start_group,n:default]
+	{
+	  b default = true;
+		description = "Das Waldhaus";
+	  b dev_only = false;
+	  i id = 0;
+		screen_name = "Das Waldhaus";
+		[start_position]
+		{
+		  i id = 1;
+			position = -1.228275,0.000001,0.133002,0x772A7700;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = -1.228275,0.000001,0.133002,0x772A7700;
+			}
+		}
+		[start_position]
+		{
+		  i id = 2;
+			position = 1.040451,0.000000,0.176586,0x772A7700;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 1.040451,0.000000,0.176586,0x772A7700;
+			}
+		}
+		[start_position]
+		{
+		  i id = 3;
+			position = -0.067879,0.000000,-1.193637,0x772A7700;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = -0.067879,0.000000,-1.193637,0x772A7700;
+			}
+		}
+		[start_position]
+		{
+		  i id = 4;
+			position = -0.009748,0.000000,1.266741,0x772A7700;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = -0.009748,0.000000,1.266741,0x772A7700;
+			}
+		}
+		[start_position]
+		{
+		  i id = 5;
+			position = 2.650436,-0.000001,2.537845,0x772A7700;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 2.650436,-0.000001,2.537845,0x772A7700;
+			}
+		}
+		[start_position]
+		{
+		  i id = 6;
+			position = -2.542264,0.000000,2.755469,0x772A7700;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = -2.542264,0.000000,2.755469,0x772A7700;
+			}
+		}
+		[start_position]
+		{
+		  i id = 7;
+			position = -2.773217,0.000000,-2.678460,0x772A7700;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = -2.773217,0.000000,-2.678460,0x772A7700;
+			}
+		}
+		[start_position]
+		{
+		  i id = 8;
+			position = 2.990306,0.000000,-2.965438,0x772A7700;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 2.990306,0.000000,-2.965438,0x772A7700;
+			}
+		}
+		[world_levels]
+		{
+			[elite]
+			{
+			  i required_level = 83;
+			}
+			[veteran]
+			{
+			  i required_level = 54;
+			}
+		}
+	}
+	[t:start_group,n:koritschtown]
+	{
+	  b default = false;
+		description = "Koritschtown";
+	  b dev_only = false;
+	  i id = 1240800;
+		screen_name = "Koritschtown";
+		[start_position]
+		{
+		  i id = 11;
+			position = 1.317053,0.000000,-0.967122,0xA939C6D4;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 1.317053,0.000000,-0.967122,0xA939C6D4;
+			}
+		}
+		[start_position]
+		{
+		  i id = 10;
+			position = -2.124812,0.000000,3.711136,0x9B894D81;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = -2.124812,0.000000,3.711136,0x9B894D81;
+			}
+		}
+		[start_position]
+		{
+		  i id = 9;
+			position = 2.152466,0.000000,-1.333504,0xC9CE0BED;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 2.152466,0.000000,-1.333504,0xC9CE0BED;
+			}
+		}
+		[start_position]
+		{
+		  i id = 12;
+			position = -3.747719,0.000000,-3.190205,0x91E686B6;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = -3.747719,0.000000,-3.190205,0x91E686B6;
+			}
+		}
+		[start_position]
+		{
+		  i id = 13;
+			position = 3.807488,0.000000,-2.454992,0x9B894D81;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 3.807488,0.000000,-2.454992,0x9B894D81;
+			}
+		}
+		[start_position]
+		{
+		  i id = 14;
+			position = 1.466680,-0.400002,3.351282,0x9E326E2B;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 1.466680,-0.400002,3.351282,0x9E326E2B;
+			}
+		}
+		[start_position]
+		{
+		  i id = 15;
+			position = -2.381216,-0.400000,2.766592,0x9E326E2B;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = -2.381216,-0.400000,2.766592,0x9E326E2B;
+			}
+		}
+		[start_position]
+		{
+		  i id = 16;
+			position = 1.322975,-0.000001,-1.457947,0x585731BD;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 1.322975,-0.000001,-1.457947,0x585731BD;
+			}
+		}
+		[world_levels]
+		{
+			[elite]
+			{
+			  i required_level = 88;
+			}
+			[regular]
+			{
+			  i required_level = 5;
+			}
+			[veteran]
+			{
+			  i required_level = 59;
+			}
+		}
+	}
+}

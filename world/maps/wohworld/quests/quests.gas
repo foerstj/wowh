@@ -1,0 +1,132 @@
+[chapters]
+{
+	[kapitel_1]
+	{
+		chapter_image = b_gui_ig_mnu_jnl_chapter_01;
+		screen_name = "Kapitel 1: Der lange Weg";
+		[*]
+		{
+			description = "Lange Zeit lebten Krugs, Elfen und Menschen in friedlicher Nachbarschaft. Doch eines Tages fingen an sich die Krugs zu verändern. Ihr äußeres wurde hässlich und ihre Gesinnung sank ins maßlose Tief. Keiner weiß, warum das geschieht. Nach der Legende geschah so etwas ähnliches schon einmal vor vielen tausend Jahren. Damals, so nach der Legende, gab es sie noch, die ultimativen Kämpfer, die Nichts und Niemanden fürchteten und sich überall für das gute einsetzten. Stark wie ein Bär, schlau wie ein Fuchs, schnell wie ein Adler. Diese Kämpfer haben damals das gute wiederhergestellt. In Friedenszeiten wurden später keine Kämpfer mehr gebraucht und so verschwanden die Helden. ABER jetzt ist die Zeit wieder reif für Helden. Mehr noch, sie werden GEBRAUCHT. Und so machen sich einige einsame Wanderer auf einen langen Weg um so ein Kämpfer, wie in der Legende zu werden, zu einem WARRIOR OF HELL ...";
+			order = 0;
+			sample = ;
+		}
+	}
+	[kapitel_2]
+	{
+		chapter_image = b_gui_ig_mnu_jnl_chapter_02;
+		screen_name = "Kapitel 2: Die Gefährlichen Minen";
+		[*]
+		{
+			description = "Hinter dem hohen Wald gibt es eine Grosse Mine. Keiner weiß wer sie gebaut hat aber der Erzählung nach soll Sie Über 1000 Jahre alt sein. In der Mine sollen dunklen Kreaturen Ihr Unwesen treiben, und das ganze Land beherrschen.";
+			order = 0;
+			sample = ;
+		}
+	}
+}
+[quests]
+{
+	[quest_danger_way]
+	{
+		chapter = kapitel_1;
+		quest_image = b_gui_ig_mnu_jnl_quest_15;
+		screen_name = "Der gefähliche Weg";
+		[*]
+		{
+			address = waldhaus_dungoen_zu_start:conversations:conv_jarola;
+			description = "Überbring' Miranda die Nachricht";
+			order = 0;
+			required = true;
+			speaker = "Jarola";
+		}
+	}
+	[quest_danger_way_mp]
+	{
+		chapter = kapitel_1;
+		quest_image = b_gui_ig_mnu_jnl_quest_15;
+		screen_name = "Der gefähliche Weg";
+		[*]
+		{
+			address = waldhaus_dungoen_zu_start:conversations:conv_jarola_multiplayer;
+			description = "Überbringt Miranda die Nachricht";
+			order = 0;
+			required = true;
+			speaker = "Jarola";
+		}
+	}
+	[quest_danger_way_secret]
+	{
+		chapter = kapitel_1;
+		quest_image = b_gui_ig_mnu_jnl_quest_24;
+		screen_name = "Der geheime Raum";
+		[*]
+		{
+			address = waldhaus_dungoen_zu_start:conversations:conv_tegum;
+			description = "Vernichte alle Monster im geheimen Raum und durchsuche die Truhen.";
+			order = 0;
+			required = true;
+			speaker = "Tegum";
+		}
+	}
+	[quest_miranda]
+	{
+		chapter = kapitel_1;
+		quest_image = b_gui_ig_mnu_jnl_quest_03;
+		screen_name = "Mirandas Mann";
+		[*]
+		{
+			address = start:conversations:azunite_kaufen;
+			description = "Suche in der Gruft nach Miranda's Mann, Degaar.";
+			order = 0;
+			required = true;
+			speaker = "Miranda";
+		}
+		[*]
+		{
+			address = jaegerhaus_crypt:conversations:degaar;
+			description = "Sprecht mit Miranda";
+			order = 1;
+			required = true;
+			speaker = "Degaar";
+		}
+	}
+	[quest_ordim_keller]
+	{
+		chapter = kapitel_1;
+		quest_image = b_gui_ig_mnu_jnl_quest_02;
+		screen_name = "Ordim's Keller";
+		[*]
+		{
+			address = akt1:conversations:conv_ordim;
+			description = "Erledige alle Monster im Keller";
+			order = 0;
+			required = true;
+			required_update = false;
+			speaker = "Ordim";
+		}
+		[*]
+		{
+			address = akt1:conversations:conv_ordim_2;
+			description = "Spreche mit Ordim";
+			order = 1;
+			required = true;
+			required_update = false;
+			speaker = "Ordim";
+		}
+	}
+	[quest_sumerka]
+	{
+		chapter = kapitel_2;
+		quest_image = b_gui_ig_mnu_jnl_quest_01;
+		screen_name = "Nachricht von Sumerka";
+		[*]
+		{
+			address = zur_stadt_akt1_a1:conversations:sumerka;
+			description = "Übermittle die Nachricht von Sumerka";
+			order = 0;
+			required = true;
+			required_update = false;
+			speaker = "Sumerka";
+		}
+	}
+
+}

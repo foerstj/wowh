@@ -1,0 +1,49 @@
+[azunite_kaufen]
+{
+	[text*]
+	{
+		activate_quest* = quest_miranda;
+		choice = shop;
+	  i order = 1;
+	  b quest_dialogue = true;
+		screen_text = "Mein Mann ist draußen bei der Gruft am Friedhof verschwunden. Ich wollte ihn ein paar Heiltränke bringen und da war er weg. 
+Ich befürchte das Schlimmste. Bitte sucht ihn und gebt mir bescheid, wenn Ihr ihn gefunden habt.
+Aber kauft erst noch schnell ein paar Flaschen und Zaubersprüche, falls Ihr braucht.";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		button_1_text = weiter...;
+		button_1_value = d_0x00100009;
+	  i order = 0;
+		screen_text = "Ahhh....seid willkommen in unseren kleinen Haus. 
+Danke für die Nachrricht.  Wir haben hier auch schon bemerkt, das es hier immer schlimmer wird.";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		choice = shop;
+		screen_text = "Ich warte auf Euch, bis Ihr wieder zurück seid.
+Ihr könnt natürlich auch weiterhin noch was kaufen.";
+	  f scroll_rate = 10.000000;
+	}
+}
+[conv_miranda_2]
+{
+	[text*]
+	{
+		choice = shop;
+	  i order = 0;
+		screen_text = "Ich habe es befürchtet. (*schluchts*)
+Dann kann ich ihn wenigstens ordentlich beerdigen. Ich
+hoffe ihr habt alle Monster da draußen getötet.";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		choice = shop;
+		screen_text = "(*leise heul*) Mein armer Mann.
+Kauft, was Ihr braucht. ";
+	  f scroll_rate = 10.000000;
+	}
+}

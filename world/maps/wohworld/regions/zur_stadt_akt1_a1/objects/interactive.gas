@@ -1,0 +1,110 @@
+[t:sign_glb_blacksmith_02,n:0x008001a0]
+{
+	[common]
+	{
+		screen_name = "Gothar's Waffenschmide";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.814115,0,0.580703;
+	  p position = 4.8931,0.381011,-8.02124,0xa40e23df;
+	}
+}
+[t:door_grs_ornate_left,n:0x008000da]
+{
+	[placement]
+	{
+	  q orientation = 0,0.819152,0,0.573576;
+	  p position = 11.9237,-3.9,-2.87482,0xb9e92729;
+	}
+}
+[t:door_grs_ornate_right,n:0x008000db]
+{
+	[placement]
+	{
+	  q orientation = 0,0.814116,0,0.580703;
+	  p position = 10.985,-3.9,-5.5192,0xb9e92729;
+	}
+}
+[t:sign_glb_magicshop_01,n:0x00800161]
+{
+	[common]
+	{
+		screen_name = "Aktovia Tränke Shop";
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,-2.38419e-007;
+	  p position = 16.7048,-4.9,-1.84552,0xb9e92729;
+	}
+}
+[t:door_grs_queensmen_left,n:0x00800023]
+{
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = 9.77048,-1.5,1.31319,0xfdec2722;
+	}
+}
+[t:sign_glb_inn_02,n:0x008000e1]
+{
+	[common]
+	{
+		screen_name = "Wirtshaus zu Koritschtown";
+	}
+	[placement]
+	{
+	  p position = 11.3654,2.3372,0.620705,0xfdec2722;
+	}
+}
+[t:door_grs_barn_left,n:0x008000dc]
+{
+	[placement]
+	{
+	  q orientation = 0,0.0958458,0,0.995396;
+	  p position = 5.60474,-1.9,7.38887,0x4711ed0e;
+	}
+}
+[t:door_grs_barn_right,n:0x008000dd]
+{
+	[placement]
+	{
+	  q orientation = 0,0.0958458,0,0.995396;
+	  p position = 8.34273,-1.9,6.85182,0x4711ed0e;
+	}
+}
+[t:sign_glb_barn_02,n:0x00800165]
+{
+	[common]
+	{
+		screen_name = "Rutar's Mulis";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.777146,0,0.62932;
+	  p position = 7.23368,1.63778,8.5742,0x4711ed0e;
+	}
+}
+[t:door_grs_queensmen_right,n:0x0080015e]
+{
+	[placement]
+	{
+	  p position = 5.89381,-2.65,-0.610252,0x3c66dcce;
+	}
+}
+[t:door_grs_queensmen_right,n:0x008000d6]
+{
+	[placement]
+	{
+	  q orientation = 0,0.923879,0,-0.382684;
+	  p position = -4.68186,-4.25,-2.67723,0x054435f2;
+	}
+}
+[t:door_grs_queensmen_right,n:0x008001bf]
+{
+	[placement]
+	{
+	  q orientation = 0,0.987688,0,0.156434;
+	  p position = 3.85328,-3.1,-6.82681,0xa40e23df;
+	}
+}

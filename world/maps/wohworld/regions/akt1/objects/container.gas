@@ -1,0 +1,107 @@
+[t:barrel_glb,n:0x00200263]
+{
+	[inventory]
+	{
+		[other]
+		{
+			il_main = potion_mana_small;
+		}
+	}
+	[placement]
+	{
+	  p position = -3.13659,0,2.90446,0xc70ff2be;
+	}
+}
+[t:barrel_glb,n:0x00200264]
+{
+	[inventory]
+	{
+		[other]
+		{
+			il_main = spell_fireshot;
+		}
+	}
+	[placement]
+	{
+	  p position = -2.25182,1.90735e-006,3.47413,0xc70ff2be;
+	}
+}
+[t:barrel_glb,n:0x00200265]
+{
+	[inventory]
+	{
+		[other]
+		{
+			il_main = gold;
+		}
+	}
+	[placement]
+	{
+	  p position = -3.43174,0,2.09507,0xc70ff2be;
+	}
+}
+[t:barrel_glb,n:0x00200266]
+{
+	[inventory]
+	{
+		[other]
+		{
+			il_main = potion_health_small;
+		}
+	}
+	[placement]
+	{
+	  p position = 3.47989,0,-2.18994,0xc70ff2be;
+	}
+}
+[t:barrel_glb,n:0x00200267]
+{
+	[placement]
+	{
+	  p position = 3.02998,0,-2.87021,0xc70ff2be;
+	}
+}
+[t:barrel_glb,n:0x00200268]
+{
+	[inventory]
+	{
+		[other]
+		{
+			il_main = spell_zap;
+		}
+	}
+	[placement]
+	{
+	  p position = 1.76743,-1.90735e-006,-3.09739,0xc70ff2be;
+	}
+}
+[t:barrel_glb,n:0x00200341]
+{
+	[placement]
+	{
+	  p position = -1.46681,-4.76837e-007,-0.827471,0x311ada11;
+	}
+}
+[t:barrel_glb,n:0x0020033f]
+{
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -0.691558,-2,-5.17015,0x2cbc8275;
+	}
+}
+[t:barrel_glb,n:0x00200340]
+{
+	[inventory]
+	{
+		[other]
+		{
+			il_main = amulet_common;
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -1.84255,-2,-5.47224,0x2cbc8275;
+	}
+}

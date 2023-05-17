@@ -1,0 +1,7 @@
+[hotpoints]
+{
+	[t:hotpoint,n:1]
+	{
+	  x id = 0x00000001;
+	}
+}

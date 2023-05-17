@@ -1,0 +1,199 @@
+[t:door_glb_crypt_01,n:0x00500032]
+{
+	[placement]
+	{
+	  q orientation = 0,2.38419e-007,0,1;
+	  p position = 0.0272542,-1.5,3.87195,0x826e9a2d;
+	}
+}
+[t:door_glb_crypt_01,n:0x00500028]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,-2.38419e-007;
+	  p position = 0.012346,-1.5,0.0739231,0x85c26151;
+	}
+}
+[t:door_glb_crypt_01,n:0x005000ac]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,-2.98023e-007;
+	  p position = -0.0226314,-1.5,0.115377,0xbe2d89ba;
+	}
+}
+[t:door_glb_crypt_01,n:0x0050014c]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,-4.20094e-007;
+	  p position = -0.0404169,-1.5,-0.0390201,0x86a514a3;
+	}
+}
+[t:door_glb_crypt_01,n:0x005000ee]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,-2.38419e-007;
+	  p position = -0.0333478,-1.5,-0.0634266,0x74952a4e;
+	}
+}
+[t:door_glb_crypt_01,n:0x0050014e]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,-2.38419e-007;
+	  p position = -0.071226,-0.5,-4.33975,0xf79bb96e;
+	}
+}
+[t:door_glb_crypt_01,n:0x0050014f]
+{
+	[placement]
+	{
+	  q orientation = 0,2.38419e-007,0,1;
+	  p position = 0.00432084,-0.35,-4.28468,0xec140eb4;
+	}
+}
+[t:door_glb_crypt_01,n:0x005000f1]
+{
+	[placement]
+	{
+	  q orientation = 0,4.20094e-007,0,1;
+	  p position = 0.0876254,-1.5,0.0796499,0x80b11554;
+	}
+}
+[t:respawn_statue,n:0x0050020f]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 1.5456,-3.57628e-007,-1.172,0xea4ca1ca;
+	}
+}
+[t:lever_on_off_01,n:0x005000b2]
+{
+	[placement]
+	{
+	  q orientation = 0,0.92388,0,0.382683;
+	  p position = 6.87902,0.195037,-0.553785,0x7a22e4a2;
+	}
+}
+[t:door_csl_dungeon_06,n:0x00500174]
+{
+	[placement]
+	{
+	  p position = 0.106999,-2.01306,0.738677,0xa5dc8075;
+	}
+}
+[t:lever_glb_05,n:0x005001eb]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x005001E2,0f,"default","",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_use",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = 26.9983,-1,18.4331,0xc1b1ca12;
+	}
+}
+[t:door_csl_dungeon_06,n:0x00500175]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x005001BB,0f,"default","",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_use",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = 0.00260249,-1.99946,1.12688,0x3d824601;
+	}
+}
+[t:respawn_statue,n:0x00500210]
+{
+	[placement]
+	{
+	  q orientation = 0,0.5373,0,0.843391;
+	  p position = 0.204981,-1.5,3.02452,0x08723464;
+	}
+}
+[t:door_glb_crypt_01,n:0x0050009d]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,-2.98023e-007;
+	  p position = 0.0233466,-1.5,-0.113011,0xd57336f9;
+	}
+}
+[t:door_glb_crypt_01,n:0x0050009e]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,-5.36442e-007;
+	  p position = 0.00176936,-1.5,-0.061532,0x3dd26a28;
+	}
+}
+[t:respawn_statue,n:0x0050020d]
+{
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -0.00121441,0,1.17745,0xaa3316e9;
+	}
+}
+[t:door_glb_crypt_01,n:0x00500029]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,-2.38419e-007;
+	  p position = -0.0271683,-1.5,-0.0964603,0x04fa16c2;
+	}
+}
+[t:door_glb_crypt_01,n:0x00500027]
+{
+	[placement]
+	{
+	  q orientation = 0,7.82017e-008,0,1;
+	  p position = -0.0675449,-1.5,-0.0256176,0x24fbefbe;
+	}
+}
+[t:door_glb_crypt_01,n:0x00500010]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,-2.38419e-007;
+	  p position = 0.0270438,0.8,0.192049,0x08525798;
+	}
+}

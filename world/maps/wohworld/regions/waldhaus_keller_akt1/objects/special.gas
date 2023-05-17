@@ -1,0 +1,58 @@
+[t:accumulate_trigger,n:0x00300011]
+{
+	[generic_accumtrigger]
+	{
+	  f num_delay = 3;
+	  i num_til_send = 6;
+	  x send_to_scid = 0x00300012;
+	}
+	[placement]
+	{
+	  p position = 0.0462708,0,0.229752,0x23a05306;
+	}
+}
+[t:trigger_generic,n:0x00300012]
+{
+	[common]
+	{
+		dev_instance_text = "QUEST";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = change_quest_state("quest_ordim_keller","active",1);
+				action* = send_world_message("we_req_activate",0x00300025,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_activate",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = -0.180115,0,-1.62351,0x23a05306;
+	}
+}
+[t:set_bool,n:0x00300025]
+{
+	[common]
+	{
+		dev_instance_text = "Set boolean krug_im_keller_tot";
+	}
+	[placement]
+	{
+	  p position = 1.74555,0,-0.323004,0x23a05306;
+	}
+	[set_bool]
+	{
+		bool_variable = "krug_im_keller_tot";
+	}
+}

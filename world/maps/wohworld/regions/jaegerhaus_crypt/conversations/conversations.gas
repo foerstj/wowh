@@ -1,0 +1,12 @@
+[degaar]
+{
+	[text*]
+	{
+		order = 0;
+		screen_text = "Ich hätte nicht gedacht, noch eine menschliche Seele zu sehen zu bekommen. Ich bin froh, das ich nicht alleine sterben muß. Ich hoffte nur, das Ihr mich früher gefunden hättet, aber meine Verwundungen sind schon zu schwer....
+NEIN, nein, behaltet die Lebensflaschen, ich schaffs nicht mehr. Das wäre jetzt nur vergeudung. Ihr seht auch nicht gerade gut aus, nehmt Ihr sie lieber.
+Sagt mein Frau Miranda, das es mir leid tut. Dies ist das erste Versprechen, das ich nicht halten konnte.
+...oh, aauuuuhhh. Oh' mein Go...........";
+	  f scroll_rate = 10.000000;
+	}
+}

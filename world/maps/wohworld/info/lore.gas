@@ -1,0 +1,21 @@
+//This is the map_world lorebook file.
+
+//[lore]
+//{
+//	// add as many of these blocks as you want.  the names of these blocks are considered the "lore_key".
+//	 
+//	[some_lore_name]
+//	{
+//		description = "";
+//	}
+//}
+
+[lore]
+{
+	[lore_woh]
+	{
+		description = "Lange Zeit lebten Krugs, Elfen und Menschen in friedlicher Nachbarschaft. Doch eines Tages fingen an sich die Krugs zu verändern. Ihr äußeres wurde häßlich und ihre Gesinnung sank ins maßlose Tief. Keiner weiß, warum das geschieht. Nach der Legende geschah soetwas ähnliches schoneinmal vor vielen tausend Jahren. Damals, so nach der Legende, gab es sie noch, die ultimativen Kämpfer, die Nichts und Niemanden fürchteten und sich überall für das gute einsetzten. Stark wie ein Bär, schlau wie ein Fuchs, schnell wie ein Adler. Diese Kämpfer haben damals das gute wiederhergestellt. In Friedenszeiten wurden später keine Kämpfer mehr gebraucht und so verschwanden die Helden. ABER jetzt ist die Zet wieder reif für Helden. Mehr noch, sie werden GEBRAUCHT. Und so machen sich einige einsame Wanderer auf einen langen Weg um so ein Kämpfer, wie in der Legende zu werden, zu einem WARRIOR OF HELL ...";
+	}
+
+}
+

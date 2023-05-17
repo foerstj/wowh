@@ -1,0 +1,15 @@
+[stitch_helper_data]
+{
+	source_region_guid = 0x00000005;
+	source_region_name = jaegerhaus_crypt;
+	[t:stitch_editor,n:start]
+	{
+		dest_region = start;
+		[node_ids]
+		{
+			0x0000000a = 0x826E9A2D,1;
+			0x0000000b = 0x826E9A2D,2;
+			0x0000000c = 0x826E9A2D,3;
+		}
+	}
+}

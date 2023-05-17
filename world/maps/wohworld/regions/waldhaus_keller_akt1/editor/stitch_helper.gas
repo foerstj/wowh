@@ -1,0 +1,14 @@
+[stitch_helper_data]
+{
+	source_region_guid = 0x00000003;
+	source_region_name = waldhaus_keller_akt1;
+	[t:stitch_editor,n:akt1]
+	{
+		dest_region = akt1;
+		[node_ids]
+		{
+			0x00000001 = 0xCCEC89CD,2;
+			0x00000002 = 0xD85DBCDF,3;
+		}
+	}
+}
