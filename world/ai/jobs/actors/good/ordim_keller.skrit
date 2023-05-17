@@ -69,7 +69,7 @@ state Talk$
 
   event OnEnterState$
   {
-    if ( GameAuditor.GetDb.GetBool( "krug_im_keller_tot" ) )
+    if ( GameAuditor.GetDb.GetBool( "krug_in_cellar_dead" ) )
     {
             m_Go$.GetConversation.RSSelectConversation( "conv_ordim_2" );
                 DumpMain$;
