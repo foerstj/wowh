@@ -2,9 +2,9 @@
 :: TankCreator and gaspy are expected to be in sibling dirs.
 
 :: name of map
-set map=wohworld
+set map=wowh
 :: name of map, case-sensitive
-set map_cs=WoHWorld
+set map_cs=WOWH
 :: path of DSLOA documents dir (where Bits are)
 set doc_dsloa=%USERPROFILE%\Documents\Dungeon Siege LoA
 :: path of DS installation

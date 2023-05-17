@@ -2,7 +2,7 @@
 :: TankCreator is expected to be in a sibling dir.
 
 :: name of map
-set map=wohworld
+set map=wowh
 :: path of DSLOA documents dir (where Bits are)
 set doc_dsloa=%USERPROFILE%\Documents\Dungeon Siege LoA
 :: path of DS installation
