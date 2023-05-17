@@ -2,9 +2,9 @@
 {
 	source_region_guid = 0x00000004;
 	source_region_name = waldhaus_dungoen_zu_start;
-	[t:stitch_editor,n:akt1]
+	[t:stitch_editor,n:act1]
 	{
-		dest_region = akt1;
+		dest_region = act1;
 		[node_ids]
 		{
 			0x00000004 = 0x09A2658B,3;
