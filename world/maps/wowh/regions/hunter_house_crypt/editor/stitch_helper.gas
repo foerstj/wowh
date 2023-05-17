@@ -1,7 +1,7 @@
 [stitch_helper_data]
 {
 	source_region_guid = 0x00000005;
-	source_region_name = jaegerhaus_crypt;
+	source_region_name = hunter_house_crypt;
 	[t:stitch_editor,n:start]
 	{
 		dest_region = start;
