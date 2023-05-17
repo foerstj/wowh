@@ -304,24 +304,6 @@
 	  p position = 0.290158,0,-0.0726127,0xddc9d6a3;
 	}
 }
-[t:skeleton_guard,n:0x00500145]
-{
-	[aspect]
-	{
-	  f experience_value = 38;
-	  f life = 55;
-	  f max_life = 55;
-	}
-	[attack]
-	{
-	  f damage_max = 22;
-	  f damage_min = 18;
-	}
-	[placement]
-	{
-	  p position = -1.7554,0,-1.76201,0x6c3251dd;
-	}
-}
 [t:skeleton_guard,n:0x00500144]
 {
 	[aspect]
@@ -342,6 +324,24 @@
 	{
 	  q orientation = 0,0.707107,0,0.707107;
 	  p position = 1.83144,1.43051e-006,0.0481795,0x503be0a0;
+	}
+}
+[t:skeleton_guard,n:0x00500145]
+{
+	[aspect]
+	{
+	  f experience_value = 38;
+	  f life = 55;
+	  f max_life = 55;
+	}
+	[attack]
+	{
+	  f damage_max = 22;
+	  f damage_min = 18;
+	}
+	[placement]
+	{
+	  p position = -1.7554,0,-1.76201,0x6c3251dd;
 	}
 }
 [t:skeleton_archer,n:0x0050013c]
@@ -983,25 +983,6 @@
 	  p position = 1.43481,2.38419e-007,1.39131,0xcb348d2b;
 	}
 }
-[t:skeleton_summon,n:0x0050004d]
-{
-	[aspect]
-	{
-	  f experience_value = 31;
-	  f life = 37;
-	  f max_life = 37;
-	}
-	[attack]
-	{
-	  f damage_max = 19;
-	  f damage_min = 15;
-	}
-	[placement]
-	{
-	  q orientation = 0,1,0,0;
-	  p position = 1.59337,2.38419e-007,1.68465,0xc69980e0;
-	}
-}
 [t:skeleton_archer,n:0x0050004e]
 {
 	[aspect]
@@ -1019,6 +1000,25 @@
 	{
 	  q orientation = 0,-0.707107,0,0.707107;
 	  p position = 1.79156,2.38419e-007,1.4543,0x7f2077f0;
+	}
+}
+[t:skeleton_summon,n:0x0050004d]
+{
+	[aspect]
+	{
+	  f experience_value = 31;
+	  f life = 37;
+	  f max_life = 37;
+	}
+	[attack]
+	{
+	  f damage_max = 19;
+	  f damage_min = 15;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = 1.59337,2.38419e-007,1.68465,0xc69980e0;
 	}
 }
 [t:gargoyle_ranged,n:0x00500020]
@@ -1054,7 +1054,6 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,0,0,1;
 	  p position = -1.6817,-1.5,1.89365,0x895d5719;
 	}
 }

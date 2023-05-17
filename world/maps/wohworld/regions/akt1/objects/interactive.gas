@@ -1,3 +1,27 @@
+[t:sign_glb_01,n:0x002002ad]
+{
+	[common]
+	{
+		screen_name = "Zum Waldhaus Dungeon";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.878817,0,0.477158;
+	  p position = -0.396937,0,0.48962,0xb62bf2f1;
+	}
+}
+[t:sign_glb_01,n:0x002002ae]
+{
+	[common]
+	{
+		screen_name = "Zur Bärenhöle";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.358368,0,0.933581;
+	  p position = -0.822742,0,0.600372,0xb62bf2f1;
+	}
+}
 [t:door_glb_stormdoor_01,n:0x0020001b]
 {
 	[placement]
@@ -43,29 +67,5 @@
 	{
 	  q orientation = 0.207911,-6.15537e-008,1.26976e-008,0.978148;
 	  p position = 1.84396,0.653004,-1.36842,0x5e73cf30;
-	}
-}
-[t:sign_glb_01,n:0x002002ad]
-{
-	[common]
-	{
-		screen_name = "Zum Waldhaus Dungeon";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.878817,0,0.477158;
-	  p position = -0.396937,0,0.48962,0xb62bf2f1;
-	}
-}
-[t:sign_glb_01,n:0x002002ae]
-{
-	[common]
-	{
-		screen_name = "Zur Bärenhöle";
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.358368,0,0.933581;
-	  p position = -0.822742,0,0.600372,0xb62bf2f1;
 	}
 }

@@ -17,6 +17,29 @@
 	  p position = -4.94625,-3.08197,-2.30267,0xa40e23df;
 	}
 }
+[t:jonn,n:0x008001bc]
+{
+	[common]
+	{
+		screen_name = "Morpheus";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = morpheus;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.920505,0,0.390731;
+	  p position = 2.59922,-3.1,-2.21244,0xa40e23df;
+	}
+}
 [t:adwana,n:0x00800167]
 {
 	[common]
@@ -129,28 +152,5 @@
 	{
 	  q orientation = 0,0.382683,0,0.92388;
 	  p position = 0.193024,-2.65,-3.911,0x3c66dcce;
-	}
-}
-[t:jonn,n:0x008001bc]
-{
-	[common]
-	{
-		screen_name = "Morpheus";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = morpheus;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk.skrit;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.920505,0,0.390731;
-	  p position = 2.59922,-3.1,-2.21244,0xa40e23df;
 	}
 }

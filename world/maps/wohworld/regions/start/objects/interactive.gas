@@ -6,22 +6,6 @@
 	  p position = 0.027575,-3.65,-2.92228,0x1d039d2e;
 	}
 }
-[t:debris_glb_bone_rock_breakable_02,n:0x001002df]
-{
-	[placement]
-	{
-	  q orientation = 0,0.848048,0,0.529919;
-	  p position = 1.92654,0,0.616266,0x60384047;
-	}
-}
-[t:respawn_statue,n:0x001002ef]
-{
-	[placement]
-	{
-	  q orientation = 0,0.615662,0,0.78801;
-	  p position = 0.971118,-1.88812,-3.49705,0xcfe7a8ff;
-	}
-}
 [t:sign_glb_01,n:0x0010001d]
 {
 	[common]
@@ -55,5 +39,21 @@
 	{
 	  q orientation = 0,-0.707107,0,0.707107;
 	  p position = 3.70333,0,-1.88495,0x42b359ad;
+	}
+}
+[t:debris_glb_bone_rock_breakable_02,n:0x001002df]
+{
+	[placement]
+	{
+	  q orientation = 0,0.848048,0,0.529919;
+	  p position = 1.92654,0,0.616266,0x60384047;
+	}
+}
+[t:respawn_statue,n:0x001002ef]
+{
+	[placement]
+	{
+	  q orientation = 0,0.615662,0,0.78801;
+	  p position = 0.971118,-1.88812,-3.49705,0xcfe7a8ff;
 	}
 }

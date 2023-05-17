@@ -15,7 +15,7 @@
 		dest_region = zur_stadt_akt1_a1;
 		[node_ids]
 		{
-			0x0000000f = 0xf053bfaf,6;
+			0x0000000f = 0xF053BFAF,6;
 		}
 	}
 }

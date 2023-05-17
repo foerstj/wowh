@@ -30,6 +30,14 @@
 	  p position = -4.9481,-1.5,-0.379151,0x73c38802;
 	}
 }
+[t:post_glb_01,n:0x00400034]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 4.29878,-2,4.95049,0xa74b9d4d;
+	}
+}
 [t:statue_glb_wizard_01,n:0x0040007d]
 {
 	[placement]
@@ -813,13 +821,5 @@
 	{
 	  q orientation = 0,1,0,-1.62921e-007;
 	  p position = -3.03626,-0.233415,0.012414,0x09a2658b;
-	}
-}
-[t:post_glb_01,n:0x00400034]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = 4.29878,-2,4.95049,0xa74b9d4d;
 	}
 }

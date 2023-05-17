@@ -538,6 +538,13 @@
 	  p position = -2.09261,0,1.56962,0x452761ec;
 	}
 }
+[t:post_glb_01,n:0x0010000a]
+{
+	[placement]
+	{
+	  p position = 3.88879,0,-1.81808,0x42b359ad;
+	}
+}
 [t:tree_grs_deciduous_17,n:0x00100014]
 {
 	[aspect]
@@ -8164,12 +8171,5 @@
 	{
 	  q orientation = 0,0.939693,0,0.34202;
 	  p position = 1.80761,0,-1.21628,0x7458ed8c;
-	}
-}
-[t:post_glb_01,n:0x0010000a]
-{
-	[placement]
-	{
-	  p position = 3.88879,0,-1.81808,0x42b359ad;
 	}
 }

@@ -12,6 +12,14 @@
 	  p position = -0.321346,-1.90735e-006,0.176635,0xc70ff2be;
 	}
 }
+[t:post_glb_01,n:0x0020000c]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.358368,0,0.933581;
+	  p position = -0.666075,0,0.501333,0xb62bf2f1;
+	}
+}
 [t:bush_grs_rhod_02,n:0x002000a9]
 {
 	[placement]
@@ -7623,13 +7631,5 @@
 	[placement]
 	{
 	  p position = -5.36649,3.00011,0.159983,0xaed686d7;
-	}
-}
-[t:post_glb_01,n:0x0020000c]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.358368,0,0.933581;
-	  p position = -0.666075,0,0.501333,0xb62bf2f1;
 	}
 }

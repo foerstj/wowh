@@ -7,7 +7,7 @@
 		dest_region = zur_stadt_akt1;
 		[node_ids]
 		{
-			0x0000000f = 0x1584910a,6;
+			0x0000000f = 0x1584910A,6;
 		}
 	}
 }
