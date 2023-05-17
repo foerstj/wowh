@@ -1,6 +1,6 @@
 [chapters]
 {
-	[kapitel_1]
+	[chapter_1]
 	{
 		chapter_image = b_gui_ig_mnu_jnl_chapter_01;
 		screen_name = "Kapitel 1: Der lange Weg";
@@ -11,7 +11,7 @@
 			sample = ;
 		}
 	}
-	[kapitel_2]
+	[chapter_2]
 	{
 		chapter_image = b_gui_ig_mnu_jnl_chapter_02;
 		screen_name = "Kapitel 2: Die Gefährlichen Minen";
@@ -27,7 +27,7 @@
 {
 	[quest_danger_way]
 	{
-		chapter = kapitel_1;
+		chapter = chapter_1;
 		quest_image = b_gui_ig_mnu_jnl_quest_15;
 		screen_name = "Der gefähliche Weg";
 		[*]
@@ -41,7 +41,7 @@
 	}
 	[quest_danger_way_mp]
 	{
-		chapter = kapitel_1;
+		chapter = chapter_1;
 		quest_image = b_gui_ig_mnu_jnl_quest_15;
 		screen_name = "Der gefähliche Weg";
 		[*]
@@ -55,7 +55,7 @@
 	}
 	[quest_danger_way_secret]
 	{
-		chapter = kapitel_1;
+		chapter = chapter_1;
 		quest_image = b_gui_ig_mnu_jnl_quest_24;
 		screen_name = "Der geheime Raum";
 		[*]
@@ -69,7 +69,7 @@
 	}
 	[quest_miranda]
 	{
-		chapter = kapitel_1;
+		chapter = chapter_1;
 		quest_image = b_gui_ig_mnu_jnl_quest_03;
 		screen_name = "Mirandas Mann";
 		[*]
@@ -89,9 +89,9 @@
 			speaker = "Degaar";
 		}
 	}
-	[quest_ordim_keller]
+	[quest_ordim_cellar]
 	{
-		chapter = kapitel_1;
+		chapter = chapter_1;
 		quest_image = b_gui_ig_mnu_jnl_quest_02;
 		screen_name = "Ordim's Keller";
 		[*]
@@ -115,7 +115,7 @@
 	}
 	[quest_sumerka]
 	{
-		chapter = kapitel_2;
+		chapter = chapter_2;
 		quest_image = b_gui_ig_mnu_jnl_quest_01;
 		screen_name = "Nachricht von Sumerka";
 		[*]
