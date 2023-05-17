@@ -5,7 +5,6 @@
   x guid = 0x00000002;
 	lastmodified = FLUPSNPUPS,flups;
   x mesh_range = 0x00000000;
-	name = walthaus_akt1;
 	notes = none;
   x scid_range = 0x00000002;
 	se_version = 1.70.0.4;
