@@ -126,8 +126,8 @@
 				action* = fade_nodes(0x00000004,-1,-1,-1,"out:instant");
 				action* = mood_change("map_world_fh_r1_1");
 				action* = set_player_world_location("forest_house");
-				action* = fade_nodes(0x00000002,2,-1,-1,"in:instant"), doc("kellertreppe");
-				action* = fade_nodes(0x00000003,-1,-1,-1,"in:instant"), doc("keller selbst");
+				action* = fade_nodes(0x00000002,2,-1,-1,"in:instant"), doc("cellar stairs");
+				action* = fade_nodes(0x00000003,-1,-1,-1,"in:instant"), doc("cellar itself");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(2.000000,1.000000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -273,10 +273,10 @@
 		{
 			[*]
 			{
-				action* = fade_nodes(0x00000001,1,-1,-1,"out:black"), doc("jägerhaus");
-				action* = fade_nodes(0x00000001,2,-1,-1,"out:black"), doc("treppejägerhaus");
-				action* = fade_nodes(0x00000004,-1,-1,-1,"out:instant"), doc("dungoen zu start");
-				action* = fade_nodes(0x00000002,20,-1,-1,"out:instant"), doc("bärhöle");
+				action* = fade_nodes(0x00000001,1,-1,-1,"out:black"), doc("hunter house");
+				action* = fade_nodes(0x00000001,2,-1,-1,"out:black"), doc("hunter house stairs");
+				action* = fade_nodes(0x00000004,-1,-1,-1,"out:instant"), doc("dungeon to start");
+				action* = fade_nodes(0x00000002,20,-1,-1,"out:instant"), doc("bear cave");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(6.000000,"on_every_enter");
 			  f delay = 0.000000;

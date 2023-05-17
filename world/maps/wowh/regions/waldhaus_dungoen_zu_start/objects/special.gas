@@ -616,7 +616,7 @@
 		{
 			[*]
 			{
-				action* = fade_nodes(0x00000001,2,-1,-1,"in:instant"), doc("treppe einblenden");
+				action* = fade_nodes(0x00000001,2,-1,-1,"in:instant"), doc("fade in stairs");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(2.000000,"on_every_enter");
 			  f delay = 0.000000;
