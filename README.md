@@ -12,6 +12,16 @@ This map is re-buildable and editable. I opened & saved every region in Siege Ed
   The internal name is *world/maps/wowh*.\
   The generated file names are *Dungeon Siege/DSLOA/WOWH.dsmap* and *WOWH.dsres*.\
   The ingame name is *Welt der Warriors of Hell (remastered)*.
+- Renamed internal names of regions, conversation ids, world locations, quests etc. in English
+
+## How to build
+
+GasPy repo: https://github.com/foerstj/gaspy
+
+- Put TankCreator and gaspy on the same folder level as your Dungeon Siege installation. Basically in the upper folder, you should have a "Dungeon Siege" folder, a "TankCreator" folder, and a "gaspy" folder.
+- Put this repo as "Bits" into your personal Dungeon Siege LoA folder (where the savegames & screenshots are).
+- Go into your Dungeon Siege installation folder and open CMD there.
+- %USERPROFILE%\Documents\Dungeon Siege LoA\Bits\build.bat
 
 ## Attribution
 
