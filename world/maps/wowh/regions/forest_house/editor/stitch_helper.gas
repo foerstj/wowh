@@ -1,7 +1,7 @@
 [stitch_helper_data]
 {
 	source_region_guid = 0x00000002;
-	source_region_name = act1;
+	source_region_name = forest_house;
 	[t:stitch_editor,n:waldhaus_dungoen_zu_start]
 	{
 		dest_region = waldhaus_dungoen_zu_start;
