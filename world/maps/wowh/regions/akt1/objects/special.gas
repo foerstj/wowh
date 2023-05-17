@@ -243,7 +243,7 @@
 {
 	[check_bool]
 	{
-		bool_variable = "krug_im_keller_tot";
+		bool_variable = "krug_in_cellar_dead";
 	  x send_to_scid = 0x00200021;
 	}
 	[placement]

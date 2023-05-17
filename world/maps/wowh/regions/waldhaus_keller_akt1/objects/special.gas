@@ -45,7 +45,7 @@
 {
 	[common]
 	{
-		dev_instance_text = "Set boolean krug_im_keller_tot";
+		dev_instance_text = "Set boolean krug_in_cellar_dead";
 	}
 	[placement]
 	{
@@ -53,6 +53,6 @@
 	}
 	[set_bool]
 	{
-		bool_variable = "krug_im_keller_tot";
+		bool_variable = "krug_in_cellar_dead";
 	}
 }
