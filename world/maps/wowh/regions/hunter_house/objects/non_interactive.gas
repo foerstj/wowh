@@ -3847,6 +3847,10 @@
 }
 [t:mushrooms_cav_01,n:0x001002bb]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.15973;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.0610485,0,0.998135;
@@ -3879,6 +3883,10 @@
 }
 [t:grass_des_03,n:0x001002ae]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.10831;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.760406,0,0.649448;
@@ -3887,6 +3895,10 @@
 }
 [t:mushrooms_cav_01,n:0x001002be]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.81404;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.374606,0,-0.927184;
@@ -3895,6 +3907,10 @@
 }
 [t:lilypad_swp_04,n:0x001002b5]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.18755;
+	}
 	[placement]
 	{
 	  q orientation = 0,-0.580703,0,0.814116;
@@ -3927,6 +3943,10 @@
 }
 [t:grass_des_03,n:0x001002ad]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.91302;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.999657,0,0.0261768;
@@ -3943,6 +3963,10 @@
 }
 [t:mushrooms_cav_02,n:0x001002c0]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.99821;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.300705,0,-0.953717;
@@ -4022,6 +4046,10 @@
 }
 [t:mushrooms_cav_01,n:0x001002bf]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.06535;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.857167,0,0.515038;
@@ -4126,6 +4154,10 @@
 }
 [t:tree_swp_02,n:0x001002c2]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.93001;
+	}
 	[placement]
 	{
 	  q orientation = 0,-0.601815,0,0.798636;
@@ -4174,6 +4206,10 @@
 }
 [t:cattail_grs_04,n:0x00100112]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.80419;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.507538,0,0.861629;
@@ -4182,6 +4218,10 @@
 }
 [t:cattail_grs_04,n:0x00100113]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.13223;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.902585,0,0.430511;
@@ -4190,6 +4230,10 @@
 }
 [t:cattail_grs_04,n:0x00100114]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.85565;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.887011,0,-0.461749;
@@ -4198,6 +4242,10 @@
 }
 [t:cattail_grs_04,n:0x00100115]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.04375;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.866025,0,-0.5;
@@ -4206,6 +4254,10 @@
 }
 [t:cattail_grs_04,n:0x00100116]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.92136;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.182236,0,0.983255;
@@ -4214,6 +4266,10 @@
 }
 [t:cattail_grs_04,n:0x00100117]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.95053;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.258819,0,0.965926;
@@ -4222,6 +4278,10 @@
 }
 [t:cattail_grs_04,n:0x001001cd]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.8481;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.793353,0,-0.608762;
@@ -4230,6 +4290,10 @@
 }
 [t:cattail_grs_04,n:0x00100276]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.97409;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.999391,0,-0.0348997;
@@ -4238,6 +4302,10 @@
 }
 [t:cattail_grs_04,n:0x001002a6]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.105;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.998135,0,-0.0610487;
@@ -4246,6 +4314,10 @@
 }
 [t:cattail_grs_04,n:0x001002ab]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.07891;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.382683,0,0.92388;
@@ -4254,6 +4326,10 @@
 }
 [t:tree_swp_tretch_02,n:0x001002c3]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.12281;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.267238,0,0.96363;
@@ -4262,6 +4338,10 @@
 }
 [t:cattail_grs_04,n:0x001002ac]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.16928;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.233445,0,-0.97237;
@@ -4270,6 +4350,10 @@
 }
 [t:roots_glb_04,n:0x001002c1]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.81442;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.104529,0,0.994522;
@@ -4560,6 +4644,7 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,0.948306,0,-0.317359;
 	  p position = -3.08497,7.85058,2.13019,0x60e6155f;
 	}
 }
@@ -4811,6 +4896,7 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,0.742733,0,0.669588;
 	  p position = 0.43813,0,1.30212,0xbd543c72;
 	}
 }
@@ -7498,6 +7584,7 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,0.993526,0,0.113606;
 	  p position = 2.54887,0,-0.63282,0x6daba88d;
 	}
 }
