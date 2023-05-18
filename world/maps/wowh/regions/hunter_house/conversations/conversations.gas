@@ -6,24 +6,24 @@
 		choice = shop;
 	  i order = 1;
 	  b quest_dialogue = true;
-		screen_text = "Mein Mann ist draußen bei der Gruft am Friedhof verschwunden. Ich wollte ihn ein paar Heiltränke bringen und da war er weg. 
-Ich befürchte das Schlimmste. Bitte sucht ihn und gebt mir bescheid, wenn Ihr ihn gefunden habt.
-Aber kauft erst noch schnell ein paar Flaschen und Zaubersprüche, falls Ihr braucht.";
+		screen_text = "My husband went lost out at the cemetery crypt. I wanted to bring him a few healing potions and then he was gone.
+I fear for the worst. Please search for him and tell me when you found him.
+But first buy a few bottles and spells, if you need.";
 	  f scroll_rate = 10.000000;
 	}
 	[text*]
 	{
         choice = more;
 	  i order = 0;
-		screen_text = "Ahhh....seid willkommen in unseren kleinen Haus. 
-Danke für die Nachrricht.  Wir haben hier auch schon bemerkt, das es hier immer schlimmer wird.";
+		screen_text = "Ah... Welcome to our little house.
+Thanks for the message. We've noticed it getting worse here already.";
 	  f scroll_rate = 10.000000;
 	}
 	[text*]
 	{
 		choice = shop;
-		screen_text = "Ich warte auf Euch, bis Ihr wieder zurück seid.
-Ihr könnt natürlich auch weiterhin noch was kaufen.";
+		screen_text = "I'll wait for you to return.
+You can of course still buy some more.";
 	  f scroll_rate = 10.000000;
 	}
 }
@@ -33,16 +33,15 @@ Ihr könnt natürlich auch weiterhin noch was kaufen.";
 	{
 		choice = shop;
 	  i order = 0;
-		screen_text = "Ich habe es befürchtet. (*schluchts*)
-Dann kann ich ihn wenigstens ordentlich beerdigen. Ich
-hoffe ihr habt alle Monster da draußen getötet.";
+		screen_text = "I feared it. (*sob*)
+Then I can at least bury him properly. I hope you have killed all monsters out there.";
 	  f scroll_rate = 10.000000;
 	}
 	[text*]
 	{
 		choice = shop;
-		screen_text = "(*leise heul*) Mein armer Mann.
-Kauft, was Ihr braucht. ";
+		screen_text = "(*quiet crying*) My poor husband.
+Buy what you need.";
 	  f scroll_rate = 10.000000;
 	}
 }

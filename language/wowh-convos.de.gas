@@ -1,0 +1,137 @@
+[t:0x0407,n:text]
+{
+    // dungeon forest2hunter
+	[0x0000]
+	{
+		from = "Stop, wanderer, or should I say LIFE-WEARY! It gets damn dangerous here. On this side of the dungeon we're dealing with Krug, but the dungeon itself is cursed. Many have tried to get to the other side. The Krug here are very bad, please warn Miranda about the danger! I hope it's not too late.";
+		to = "Halt Wanderer, oder soll ich sagen LEBENSMÜDER! Hier wird es verdammt gefählich. Auf dieser Seite des Dungeons haben wir schon mit den Krugs zu tun, aber der Dungeon selbst ist verflucht. Viele haben versucht auf die andere Seite zu kommen. Die Krugs sind hier sehr schlimm, bitte warnt Miranda vor der Gefahr! Ich hoffe es ist nicht schon zu spät.";
+	}
+	[0x0000]
+	{
+		from = "I don't dare to go through there alone, but maybe together we stand a chance. Can I join you?";
+		to = "Ich trau mich zwar nicht allein da durch, aber vielleicht haben wir zusammen eine größere Chance. Darf ich Euch begleiten?";
+	}
+	[0x0000]
+	{
+		from = "I don't dare to go through there. Perhaps you're lucky? Fortune favors fools.";
+		to = "Ich trau mich nicht da durch. Vielleicht habt Ihr ja mehr Glück als Verstand.";
+	}
+	[0x0000]
+	{
+		from = "We were cursed to stand guard here until someone comes to conquer us. Free us from the agony and you will be richly rewarded.";
+		to = "Wir wurden verflucht hier alles zu bewachen bis jemand kommt und uns besiegt. Befreie uns von der Qual und Du wirst fürstlich belohnt.";
+	}
+
+    // forest house
+	[0x0000]
+	{
+		from = "Good morning lonely wanderer. Do you have a few minutes time to oust the Krug from my cellar? All my supplies are stored there and I can't get to them due to the damn Krug.";
+		to = "Guten Morgen einsamer Wanderer. Hast Du ein paar Minuten Zeit um die Krugs aus meinen Keller zu vertreiben? Dort lagern meine ganzen Vorräte und ich komme duch die verdammten Krugs dort nicht mehr heran.";
+	}
+	[0x0000]
+	{
+		from = "Have you freed my cellar from the Krug yet?!";
+		to = "Hast Du schon meinen Keller von den Krugs befreit?!";
+	}
+	[0x0000]
+	{
+		from = "I thank you for freeing my cellar from the Krug. Take these bottles for your travels, and here's a tip: I've heard of a secret room in the dungeons long ago. I often searched for it, but never found it. Perhaps you'll be more lucky.";
+		to = "Ich danke Dir, dass Du den Keller von den Krugs befreit hast. Hier nimm die Flaschen für Deine Reise, und noch einen kleinen Tip: Ich habe vor langer Zeit von einem geheimen Raum in den Dungeons gehört. Ich habe oft danach gesucht, aber ihn nicht gefunden. Vielleicht hast Du ja mehr Glück.";
+	}
+	[0x0000]
+	{
+		from = "Good luck, lonely wanderer, on your travels ahead!";
+		to = "Viel Glück, einsamer Wanderer, auf Deiner weiteren Reise!";
+	}
+
+    // hunter house
+	[0x0000]
+	{
+		from = "My husband went lost out at the cemetery crypt. I wanted to bring him a few healing potions and then he was gone.
+I fear for the worst. Please search for him and tell me when you found him.
+But first buy a few bottles and spells, if you need.";
+		to = "Mein Mann ist draußen bei der Gruft am Friedhof verschwunden. Ich wollte ihm ein paar Heiltränke bringen und da war er weg. 
+Ich befürchte das Schlimmste. Bitte sucht ihn und gebt mir bescheid, wenn Ihr ihn gefunden habt.
+Aber kauft erst noch schnell ein paar Flaschen und Zaubersprüche, falls Ihr braucht.";
+	}
+	[0x0000]
+	{
+		from = "Ah... Welcome to our little house.
+Thanks for the message. We've noticed it getting worse here already.";
+		to = "Ah... Seid willkommen in unseren kleinen Haus.
+Danke für die Nachricht. Wir haben hier auch schon bemerkt, dass es hier immer schlimmer wird.";
+	}
+	[0x0000]
+	{
+		from = "I'll wait for you to return.
+You can of course still buy some more.";
+		to = "Ich warte auf Euch, bis Ihr wieder zurück seid.
+Ihr könnt natürlich auch weiterhin noch was kaufen.";
+	}
+	[0x0000]
+	{
+		from = "I feared it. (*sob*)
+Then I can at least bury him properly. I hope you have killed all monsters out there.";
+		to = "Ich habe es befürchtet. (*schluchz*)
+Dann kann ich ihn wenigstens ordentlich beerdigen. Ich hoffe Ihr habt alle Monster da draußen getötet.";
+	}
+	[0x0000]
+	{
+		from = "(*quiet crying*) My poor husband.
+Buy what you need.";
+		to = "(*leise heul*) Mein armer Mann.
+Kauft, was Ihr braucht.";
+	}
+
+    // hunter house crypt
+	[0x0000]
+	{
+		from = "I didn't think I'd see another human soul. I'm glad I don't have to die alone. I wished you had found me earlier, but my wounds are already too strong...
+NO, no, keep the health bottles, I won't make it. It would just be a waste. You don't look too well yourself, so drink them yourself.
+Tell my wife Miranda I'm sorry. This is the first promise I couldn't keep.
+...oh, aauuuuhhh. Oh my Go...........";
+		to = "Ich hätte nicht gedacht, noch eine menschliche Seele zu sehen zu bekommen. Ich bin froh, das ich nicht alleine sterben muss. Ich hoffte nur, dass Ihr mich früher gefunden hättet, aber meine Verwundungen sind schon zu schwer...
+NEIN, nein, behaltet die Lebensflaschen, ich schaffs nicht mehr. Das wäre jetzt nur Vergeudung. Ihr seht auch nicht gerade gut aus, nehmt Ihr sie lieber.
+Sagt mein Frau Miranda, das es mir leid tut. Dies ist das erste Versprechen, das ich nicht halten konnte.
+...oh, aauuuuhhh. O mein Go...........";
+	}
+
+    // town
+	[0x0000]
+	{
+		from = "Hello lonely wanderer. I am Aktovia the high priestess of Koritschtown.
+I can offer you potions and spells for little gold.";
+		to = "Hallo einsamerer Wanderer. Ich bin Aktovia die hohe Priesterin von Koritschtown.
+Ich kann Euch Tränke und Zauber gegen wenig Gold anbieten.";
+	}
+	[0x0000]
+	{
+		from = "Ah lonely wanderer. My name is Gothar. I am the smith in Koritschtown. If you need weapons or armors, ask inside the house. I only manufacture the weapons and armors.";
+		to = "Ah einsamerer Wanderer. Mein Name ist Gothar. Ich bin der Schmied in Koritschtown. Wenn Du Waffen und Rüstungen brauchst, dann frage im Haus nach. Ich fertige die Waffen und Rüstungen nur an.";
+	}
+	[0x0000]
+	{
+		from = "I am Kelar the host. Since the Krug attack, business is running badly. Nobody comes to Koritschtown anymore and buys something here.";
+		to = "Ich bin Kelar der Wirt. Seit dem Angriff der Krugs laufen die Geschäfte schlecht. Keiner kommt mehr nach Koritschtown und kauft bei mir was.";
+	}
+	[0x0000]
+	{
+		from = "Good morning, lonely wanderer. My name is Rutar. Normally I have mules for sale, but the times for a mule seller are conceivably bad.";
+		to = "Guten Morgen einsamerer Wanderer. Mein Name ist Rutar. Normalerweise habe ich Mulis zu verkaufen, aber die Zeiten für einen Muliverkäufer sind denkbar schlecht.";
+	}
+	[0x0000]
+	{
+		from = "Good morning, lonely wanderer. I have a request for you. My brother Albera went to the mines a few days ago to fight against the dark creatures. I fear that he won't make it alone. If you see my brother, tell him to return to Koritschtown.";
+		to = "Guten Morgen einsamerer Wanderer. Ich habe eine Bitte an Euch. Mein Bruder Albera ist vor ein paar Tagen zu den Minen aufgebrochen um dem Kampf gegen die dunklen Kreaturen aufzunehmen. Ich habe aber Angst, dass er das alleine nicht schafft. Wenn Ihr meinen Bruder sehen solltet sagt ihm dass er nach Koritschtown zurückkehren soll.";
+	}
+	[0x0000]
+	{
+		from = "Have you given the message to my brother yet?";
+		to = "Habt Ihr meinem Bruder die Nachricht schon überbracht?";
+	}
+	[0x0000]
+	{
+		from = "I am Morpheus the son of Gothar. I sell the best weapons and armors in all of Koritschtown.";
+		to = "Ich bin Morpheus der Sohn vom Gothar. Ich verkaufe dir die besten Waffen und Rüstungen in ganz Koritschtown.";
+	}
+}

@@ -5,12 +5,12 @@
 		activate_quest* = quest_ordim_cellar;
 	  i order = 0;
 		quest_dialog = true;
-		screen_text = "Guten Morgen einsamer Wanderer. Hast Du ein paar Minuten Zeit um die Krugs aus meinen Keller zu vertreiben? Dort lagern meine ganzen Vorräte und ich komme duch die verdammten Krugs dort nicht mehr herran.";
+		screen_text = "Good morning lonely wanderer. Do you have a few minutes time to oust the Krug from my cellar? All my supplies are stored there and I can't get to them due to the damn Krug.";
 	  f scroll_rate = 10.000000;
 	}
 	[text*]
 	{
-		screen_text = "Hast Du schon meinen Keller von den Krugs befreit ?!";
+		screen_text = "Have you freed my cellar from the Krug yet?!";
 	}
 }
 [conv_ordim_2]
@@ -18,11 +18,11 @@
 	[text*]
 	{
 	  i order = 0;
-		screen_text = "Ich danke Dir, daß Du den Keller von den Krugs befreit hast. Hier nimm die Flaschen für Deine Reise, und noch einen kleinen Tip: Ich habe vor langer Zeit von einem geheimen Raum in den Dungoens gehört. Ich habe oft danach gesucht, aber ihn nicht gefunden. Vielleicht hast Du ja mehr Glück.";
+		screen_text = "I thank you for freeing my cellar from the Krug. Take these bottles for your travels, and here's a tip: I've heard of a secret room in the dungeons long ago. I often searched for it, but never found it. Perhaps you'll be more lucky.";
 	  f scroll_rate = 10.000000;
 	}
 	[text*]
 	{
-		screen_text = "Viel Glück, einsamer Wanderer, auf Deiner weiteren Reise !";
+		screen_text = "Good luck, lonely wanderer, on your travels ahead!";
 	}
 }

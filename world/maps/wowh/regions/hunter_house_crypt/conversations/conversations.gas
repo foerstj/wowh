@@ -3,10 +3,10 @@
 	[text*]
 	{
 		order = 0;
-		screen_text = "Ich hätte nicht gedacht, noch eine menschliche Seele zu sehen zu bekommen. Ich bin froh, das ich nicht alleine sterben muß. Ich hoffte nur, das Ihr mich früher gefunden hättet, aber meine Verwundungen sind schon zu schwer....
-NEIN, nein, behaltet die Lebensflaschen, ich schaffs nicht mehr. Das wäre jetzt nur vergeudung. Ihr seht auch nicht gerade gut aus, nehmt Ihr sie lieber.
-Sagt mein Frau Miranda, das es mir leid tut. Dies ist das erste Versprechen, das ich nicht halten konnte.
-...oh, aauuuuhhh. Oh' mein Go...........";
+		screen_text = "I didn't think I'd see another human soul. I'm glad I don't have to die alone. I wished you had found me earlier, but my wounds are already too strong...
+NO, no, keep the health bottles, I won't make it. It would just be a waste. You don't look too well yourself, so drink them yourself.
+Tell my wife Miranda I'm sorry. This is the first promise I couldn't keep.
+...oh, aauuuuhhh. Oh my Go...........";
 	  f scroll_rate = 10.000000;
 	}
 }

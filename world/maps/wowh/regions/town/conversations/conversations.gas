@@ -3,8 +3,8 @@
 	[text*]
 	{
 		choice = shop;
-		screen_text = "Hallo einsamerer Wanderer. Ich bin Aktovia die hohe Priesterin von Koritschtown.
-Ich kann Euch Tränke und Zauber gegen wenig Gold anbieten.";
+		screen_text = "Hello lonely wanderer. I am Aktovia the high priestess of Koritschtown.
+I can offer you potions and spells for little gold.";
 	  f scroll_rate = 10.000000;
 	}
 }
@@ -13,8 +13,7 @@ Ich kann Euch Tränke und Zauber gegen wenig Gold anbieten.";
 	[text*]
 	{
 		choice = buy_packmule;
-		screen_text = "Ahhhh einsamerer Wanderer. Mein Name ist Gothar. Ich bin der Schmid in Koritschtown.Wen Du Waffen und Rüstungen brauchst, dann  frage im Haus nach. Ich fertige die waffnen und Rüstungen nur an.
-";
+		screen_text = "Ah lonely wanderer. My name is Gothar. I am the smith in Koritschtown. If you need weapons or armors, ask inside the house. I only manufacture the weapons and armors.";
 	  f scroll_rate = 10.000000;
 	}
 }
@@ -22,7 +21,7 @@ Ich kann Euch Tränke und Zauber gegen wenig Gold anbieten.";
 {
 	[text*]
 	{
-		screen_text = "Ich bin Kelar der Wirt. Seit dem angriff der Krugs laufen die Geschäfte schlecht. Keiner kommt mehr nach Koritschtown und kauft bei mir was.";
+		screen_text = "I am Kelar the host. Since the Krug attack, business is running badly. Nobody comes to Koritschtown anymore and buys something here.";
 	  f scroll_rate = 10.000000;
 	}
 }
@@ -30,7 +29,7 @@ Ich kann Euch Tränke und Zauber gegen wenig Gold anbieten.";
 {
 	[text*]
 	{
-		screen_text = "Guten Morgen einsamerer Wanderer. Mein Name ist Rutar. Normaler weise habe ich Mulis zu verkaufen, aber die Zeiten für einen Muliverkäufer sind denkbar schlecht.";
+		screen_text = "Good morning, lonely wanderer. My name is Rutar. Normally I have mules for sale, but the times for a mule seller are conceivably bad.";
 	  f scroll_rate = 10.000000;
 	}
 }
@@ -41,12 +40,12 @@ Ich kann Euch Tränke und Zauber gegen wenig Gold anbieten.";
 		activate_quest* = quest_sumerka;
 	  i order = 0;
 	  b quest_dialogue = true;
-		screen_text = "Guten Morgen einsamerer Wanderer. Ich habe eine bitte an Euch. Mein Bruder Albera ist vor ein paar Tagen zu den Minen aufgebrochen um dem Kampf gegen die dunklen Kreaturen aufzunehmen. Ich habe aber angst, das er das alleine nicht schlaft. Wenn Ihr meine Bruder sehen solltet sag Ihn das er nach Koritschtown zurück kehren  soll.";
+		screen_text = "Good morning, lonely wanderer. I have a request for you. My brother Albera went to the mines a few days ago to fight against the dark creatures. I fear that he won't make it alone. If you see my brother, tell him to return to Koritschtown.";
 	  f scroll_rate = 10.000000;
 	}
 	[text*]
 	{
-		screen_text = "Habt Ihr mein Bruder die Nachricht schon Überbracht?";
+		screen_text = "Have you given the message to my brother yet?";
 	}
 }
 [morpheus]
@@ -54,7 +53,7 @@ Ich kann Euch Tränke und Zauber gegen wenig Gold anbieten.";
 	[text*]
 	{
 		choice = shop;
-		screen_text = "Ich bin Morpheus der Sohn vom Gothar.   Ich verkaufe dir die besten Waffen und Rüstungen in ganz Koritschtown.";
+		screen_text = "I am Morpheus the son of Gothar. I sell the best weapons and armors in all of Koritschtown.";
 	  f scroll_rate = 10.000000;
 	}
 }

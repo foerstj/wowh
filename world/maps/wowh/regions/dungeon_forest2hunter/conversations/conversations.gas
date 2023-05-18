@@ -5,13 +5,13 @@
     choice = more;
     order = 0;
     quest_dialog = true;
-    screen_text = "Halt Wanderer, oder soll ich sagen LEBENSMÜDER! Hier wird es verdammt gefählich. Auf dieser Seite des Dungeons haben wir schon mit den Krugs zu tun, aber der Dungeon selbst ist verflucht. Viele haben versucht auf die andere Seite zu kommen. Die Krugs sind hier sehr schlimm, bitte warnt Miranda vor der Gefahr ! Ich hoffe es ist nicht schon zu spät.";
+    screen_text = "Stop, wanderer, or should I say LIFE-WEARY! It gets damn dangerous here. On this side of the dungeon we're dealing with Krug, but the dungeon itself is cursed. Many have tried to get to the other side. The Krug here are very bad, please warn Miranda about the danger! I hope it's not too late.";
     activate_quest* = quest_danger_way;
   }
   [text*]
   {
     choice = potential_member;
-    screen_text = "Ich trau mich zwar nicht allein da durch, aber vielleicht haben wir zusammen eine größere Chance. Darf ich euch begleiten ?";
+    screen_text = "I don't dare to go through there alone, but maybe together we stand a chance. Can I join you?";
   }
 }
 [conv_jarola_multiplayer]
@@ -21,12 +21,12 @@
     choice = more;
     order = 0;
     quest_dialog = true;
-    screen_text = "Halt Wanderer, oder soll ich sagen LEBENSMÜDER! Hier wird es verdammt gefählich. Auf dieser Seite des Dungeons haben wir schon mit den Krugs zu tun, aber der Dungeon selbst ist verflucht. Viele haben versucht auf die andere Seite zu kommen. Die Krugs sind hier sehr schlimm, bitte warnt Miranda vor der Gefahr ! Ich hoffe es ist nicht schon zu spät.";
+    screen_text = "Stop, wanderer, or should I say LIFE-WEARY! It gets damn dangerous here. On this side of the dungeon we're dealing with Krug, but the dungeon itself is cursed. Many have tried to get to the other side. The Krug here are very bad, please warn Miranda about the danger! I hope it's not too late.";
     activate_quest* = quest_danger_way;
   }
   [text*]
   {
-    screen_text = "Ich trau mich nicht da durch. Vielleicht habt Ihr ja mehr Glück, als Verstand.";
+    screen_text = "I don't dare to go through there. Perhaps you're lucky? Fortune favors fools.";
   }
 }
 
@@ -35,7 +35,7 @@
   [text*]
   {
     quest_dialog = true;
-    screen_text = "Wir wurden verflucht hier alles zu bewachen bis jemand kommt und uns besiegt. Befreie uns von der Qual und Du wirst fürstlich belohnt.";
+    screen_text = "We were cursed to stand guard here until someone comes to conquer us. Free us from the agony and you will be richly rewarded.";
     activate_quest* = quest_danger_way_secret;
   }
 }
