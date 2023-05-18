@@ -12,7 +12,6 @@ I can offer you potions and spells for little gold.";
 {
 	[text*]
 	{
-		choice = buy_packmule;
 		screen_text = "Ah lonely wanderer. My name is Gothar. I am the smith in Koritschtown. If you need weapons or armors, ask inside the house. I only manufacture the weapons and armors.";
 	  f scroll_rate = 10.000000;
 	}
