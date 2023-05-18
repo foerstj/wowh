@@ -1,0 +1,13 @@
+[t:0x0407,n:text]
+{
+	[0x0000]
+	{
+		from = "World of Warriors of Hell (remastered)";
+		to = "Welt der Warriors of Hell (remastered)";
+	}
+	[0x0000]
+	{
+		from = "---=== The Legend of the Warrios of Hell ===---\nPlayable in both single and multiplayer modes.";
+		to = "---=== Die Legende der Warrios of Hell ===---\nKann einzeln oder im Multiplayer-Modus gespielt werden.";
+	}
+}

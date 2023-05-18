@@ -1,7 +1,7 @@
 [t:map,n:map]
 {
-	screen_name = "Welt der Warriors of Hell (remastered)";
-	description = "  ---=== Die Legende der Warrios of Hell ===---    Kann Einzeln und im Multiplayer-Modus gespielt werden.";
+	screen_name = "World of Warriors of Hell (remastered)";
+	description = "---=== The Legend of the Warrios of Hell ===---\nPlayable in both single and multiplayer modes.";
   b dev_only = false;
 	timeofday = 0h0m;
   b use_node_mesh_index = true;

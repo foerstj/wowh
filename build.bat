@@ -36,5 +36,10 @@ robocopy "%doc_dsloa%\Bits\world\ai" "%tmp%\Bits\world\ai" /E
 %tc%\RTC.exe -source "%tmp%\Bits" -out "%ds%\DSLOA\%map_cs%.dsres" -copyright "Superalf, Warriors of Hell 2002" -title "%map_cs%" -author "Johannes Förstner"
 if %errorlevel% neq 0 pause
 
+if not "%mode%"=="light" (
+  :: Compile German language resource file
+  call "%doc_dsloa%\Bits\build-de.bat"
+)
+
 :: Cleanup
 rmdir /S /Q "%tmp%\Bits"
