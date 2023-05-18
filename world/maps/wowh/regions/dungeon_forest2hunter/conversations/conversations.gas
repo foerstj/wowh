@@ -1,4 +1,4 @@
-[conv_jarola]
+[conv_jarola_first]
 {
   [text*]
   {
@@ -8,12 +8,53 @@
     screen_text = "Stop, wanderer, or should I say LIFE-WEARY! It gets damn dangerous here. On this side of the dungeon we're dealing with Krug, but the dungeon itself is cursed. Many have tried to get to the other side. The Krug here are very bad, please warn Miranda about the danger! I hope it's not too late.";
     activate_quest* = quest_danger_way;
   }
+}
+[conv_jarola_join]
+{
   [text*]
   {
     choice = potential_member;
     screen_text = "I don't dare to go through there alone, but maybe together we stand a chance. Can I join you?";
   }
 }
+[conv_jarola_rejoin]
+{
+  [text*]
+  {
+    choice = potential_member;
+    screen_text = "I don't dare to go through there alone, but maybe together we stand a chance. Can I join you?";
+  }
+}
+[conv_jarola_reject]
+{
+  [text*]
+  {
+    screen_text = "Well then die alone! Pshah!";
+  }
+}
+[conv_jarola_accept_have_money]
+{
+  [text*]
+  {
+    screen_text = "Yay let's go!";
+  }
+}
+[conv_jarola_disband]
+{
+  [text*]
+  {
+    screen_text = "Wait, what?";
+  }
+}
+[conv_jarola_disband_rejoin]
+{
+  [text*]
+  {
+    choice = potential_member;
+    screen_text = "You want to go together again? Okay.";
+  }
+}
+
 [conv_jarola_multiplayer]
 {
   [text*]

@@ -13,6 +13,26 @@
 	}
 	[0x0000]
 	{
+		from = "Well then die alone! Pshah!";
+		to = "Dann stirb halt allein! Pah!";
+	}
+	[0x0000]
+	{
+		from = "Yay let's go!";
+		to = "Yay los geht's!";
+	}
+	[0x0000]
+	{
+		from = "Wait, what?";
+		to = "Bitte was?";
+	}
+	[0x0000]
+	{
+		from = "You want to go together again? Okay.";
+		to = "Du willst wieder zusammen gehen? Na gut.";
+	}
+	[0x0000]
+	{
 		from = "I don't dare to go through there. Perhaps you're lucky? Fortune favors fools.";
 		to = "Ich trau mich nicht da durch. Vielleicht habt Ihr ja mehr Glück als Verstand.";
 	}
