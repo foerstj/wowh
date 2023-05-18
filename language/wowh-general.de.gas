@@ -1,5 +1,6 @@
 [t:0x0407,n:text]
 {
+    // map
 	[0x0000]
 	{
 		from = "World of Warriors of Hell (remastered)";
@@ -9,5 +10,39 @@
 	{
 		from = "---=== The Legend of the Warrios of Hell ===---\nPlayable in both single and multiplayer modes.";
 		to = "---=== Die Legende der Warrios of Hell ===---\nKann einzeln oder im Multiplayer-Modus gespielt werden.";
+	}
+
+    // start positions
+	[0x0000]
+	{
+		from = "The Forest House";
+		to = "Das Waldhaus";
+	}
+
+    // player world locations
+	[0x0000]
+	{
+		from = "the Forest House";
+		to = "das Waldhaus";
+	}
+	[0x0000]
+	{
+		from = "a Secret";
+		to = "ein Secret";
+	}
+	[0x0000]
+	{
+		from = "the Dungeon";
+		to = "den Dungeon";
+	}
+	[0x0000]
+	{
+		from = "the Hunter House";
+		to = "das Jägerhaus";
+	}
+	[0x0000]
+	{
+		from = "the Crypt";
+		to = "die Gruft";
 	}
 }

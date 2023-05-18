@@ -3,26 +3,26 @@
   [t:location,n:forest_house]
   {
     id = 0101;
-    screen_name = "das Waldhaus";
+    screen_name = "the Forest House";
   }
   [t:location,n:secret]
   {
     id = 0102;
-    screen_name = "ein Secret";
+    screen_name = "a Secret";
   }
   [t:location,n:forest_house_dungeon]
   {
     id = 0103;
-    screen_name = "den Dungeon";
+    screen_name = "the Dungeon";
   }
   [t:location,n:hunter_house]
   {
     id = 0104;
-    screen_name = "das Jägerhaus";
+    screen_name = "the Hunter House";
   }
   [t:location,n:crypt]
   {
     id = 0105;
-    screen_name = "die Gruft";
+    screen_name = "the Crypt";
   }
 }

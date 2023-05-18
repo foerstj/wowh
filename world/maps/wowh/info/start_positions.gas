@@ -3,10 +3,10 @@
 	[t:start_group,n:default]
 	{
 	  b default = true;
-		description = "Das Waldhaus";
+		description = "The Forest House";
 	  b dev_only = false;
 	  i id = 0;
-		screen_name = "Das Waldhaus";
+		screen_name = "The Forest House";
 		[start_position]
 		{
 		  i id = 1;
