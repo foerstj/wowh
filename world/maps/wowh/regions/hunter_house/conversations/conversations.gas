@@ -13,8 +13,7 @@ Aber kauft erst noch schnell ein paar Flaschen und Zaubersprüche, falls Ihr brau
 	}
 	[text*]
 	{
-		button_1_text = weiter...;
-		button_1_value = d_0x00100009;
+        choice = more;
 	  i order = 0;
 		screen_text = "Ahhh....seid willkommen in unseren kleinen Haus. 
 Danke für die Nachrricht.  Wir haben hier auch schon bemerkt, das es hier immer schlimmer wird.";

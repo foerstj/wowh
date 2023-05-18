@@ -2,8 +2,7 @@
 {
   [text*]
   {
-    button_1_text = "Mehr...";
-    button_1_value = d_0x00400040;
+    choice = more;
     order = 0;
     quest_dialog = true;
     screen_text = "Halt Wanderer, oder soll ich sagen LEBENSMÜDER! Hier wird es verdammt gefählich. Auf dieser Seite des Dungeons haben wir schon mit den Krugs zu tun, aber der Dungeon selbst ist verflucht. Viele haben versucht auf die andere Seite zu kommen. Die Krugs sind hier sehr schlimm, bitte warnt Miranda vor der Gefahr ! Ich hoffe es ist nicht schon zu spät.";
@@ -19,8 +18,7 @@
 {
   [text*]
   {
-    button_1_text = "Mehr...";
-    button_1_value = d_0x00400072;
+    choice = more;
     order = 0;
     quest_dialog = true;
     screen_text = "Halt Wanderer, oder soll ich sagen LEBENSMÜDER! Hier wird es verdammt gefählich. Auf dieser Seite des Dungeons haben wir schon mit den Krugs zu tun, aber der Dungeon selbst ist verflucht. Viele haben versucht auf die andere Seite zu kommen. Die Krugs sind hier sehr schlimm, bitte warnt Miranda vor der Gefahr ! Ich hoffe es ist nicht schon zu spät.";
