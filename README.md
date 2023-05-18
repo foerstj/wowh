@@ -3,7 +3,7 @@
 The original 3rd-party WOWH map, remastered.\
 WOWH means World of Warriors of Hell. Warriors of Hell was a German guild of Diablo II players.
 
-## What I did
+## What I did (remaster)
 
 This map is re-buildable and editable. I opened & saved every region in Siege Editor v1.7. The dsmap file can be rebuilt using the batch scripts, provided you have the folder structure of Dungeon Siege, TankCreator and gaspy.
 - SE saves the "required_level" attributes for multiplayer start positions with an "i" in front, which however breaks the level requirement.\
@@ -16,6 +16,13 @@ This map is re-buildable and editable. I opened & saved every region in Siege Ed
 - Replaced self-implemented "More..." buttons in conversations with standard ones
 - Fixed north vector
 - Converted to node_mesh_index
+
+## What I did (revisit)
+
+Building on the remaster, for the revisited version I did the following changes:
+- Translate texts to English, and add an optional German re-translation file (basically the original texts but I allowed myself to fix some typos)
+- Make PWL triggers multiplayer-only
+- Fix some annoying cam-blocking nodes
 
 ## How to build
 
