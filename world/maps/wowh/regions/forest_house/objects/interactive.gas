@@ -48,6 +48,10 @@
 }
 [t:door_glb_stormdoor_02,n:0x00200016]
 {
+	[door_basic]
+	{
+	  x second_door = 0x00200024;
+	}
 	[placement]
 	{
 	  q orientation = 0.207912,-7.67877e-008,-1.77705e-008,0.978148;
@@ -63,6 +67,10 @@
 }
 [t:door_glb_stormdoor_01,n:0x00200024]
 {
+	[door_basic]
+	{
+	  x second_door = 0x00200016;
+	}
 	[placement]
 	{
 	  q orientation = 0.207911,-6.15537e-008,1.26976e-008,0.978148;
