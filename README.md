@@ -13,6 +13,9 @@ This map is re-buildable and editable. I opened & saved every region in Siege Ed
   The generated file names are *Dungeon Siege/DSLOA/WOWH.dsmap* and *WOWH.dsres*.\
   The ingame name is *Welt der Warriors of Hell (remastered)*.
 - Renamed internal names of regions, conversation ids, world locations, quests etc. in English
+- Replaced self-implemented "More..." buttons in conversations with standard ones
+- Fixed north vector
+- Converted to node_mesh_index
 
 ## How to build
 
