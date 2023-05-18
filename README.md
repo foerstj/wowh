@@ -23,6 +23,11 @@ Building on the remaster, for the revisited version I did the following changes:
 - Translate texts to English, and add an optional German re-translation file (basically the original texts but I allowed myself to fix some typos)
 - Make PWL triggers multiplayer-only
 - Fix some annoying cam-blocking nodes
+- Fix conversation of Gothar and Jarola
+- Brush up plants (randomize size & orientation)
+- Fix doors (pathfinding & double doors)
+- Make Veteran and Elite actually work
+- Add a sign at the end
 
 ## How to build
 
