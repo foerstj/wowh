@@ -113,7 +113,7 @@
 	  p position = -1.83782,-8.34465e-007,-0.110991,0xdf83b0a5;
 	}
 }
-[t:2w_chest_csl_03_dm_r10,n:0x00400039]
+[t:chest_csl_03_dm_r10,n:0x00400039]
 {
 	[common]
 	{
@@ -195,7 +195,7 @@
 	  p position = -1.98983,-9.53674e-007,1.8906,0x7f5fe43c;
 	}
 }
-[t:2w_chest_grs_02_df_bandits,n:0x00400037]
+[t:chest_grs_02_df_bandits,n:0x00400037]
 {
 	[common]
 	{
