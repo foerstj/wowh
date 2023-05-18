@@ -10,7 +10,7 @@
 {
 	[common]
 	{
-		screen_name = "Jägerhaus Crypter";
+		screen_name = "Hunter House Crypt";
 	}
 	[placement]
 	{
@@ -21,7 +21,7 @@
 {
 	[common]
 	{
-		screen_name = "Bauernhof";
+		screen_name = "Farm";
 	}
 	[placement]
 	{
@@ -33,7 +33,7 @@
 {
 	[common]
 	{
-		screen_name = "Waldhaus Dungeon";
+		screen_name = "Forest House Dungeon";
 	}
 	[placement]
 	{

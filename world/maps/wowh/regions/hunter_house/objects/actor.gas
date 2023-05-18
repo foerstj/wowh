@@ -2,7 +2,7 @@
 {
 	[common]
 	{
-		screen_name = "Miranda, Herrin des Jägerhauses";
+		screen_name = "Miranda, lady of the Hunter House";
 		[instance_triggers]
 		{
 			[*]

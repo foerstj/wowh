@@ -129,4 +129,85 @@
 		from = "Deliver the message from Sumerka";
 		to = "Übermittle die Nachricht von Sumerka";
 	}
+
+    // signs
+	[0x0000]
+	{
+		from = "Forest House";
+		to = "Waldhaus";
+	}
+	[0x0000]
+	{
+		from = "Hunter House";
+		to = "Jägerhaus";
+	}
+	[0x0000]
+	{
+		from = "Farm";
+		to = "Bauernhof";
+	}
+	[0x0000]
+	{
+		from = "To the Forest House Dungeon";
+		to = "Zum Waldhaus-Dungeon";
+	}
+	[0x0000]
+	{
+		from = "To the bear cave";
+		to = "Zur Bärenhöhle";
+	}
+	[0x0000]
+	{
+		from = "Hunter House Crypt";
+		to = "Jägerhaus-Gruft";
+	}
+	[0x0000]
+	{
+		from = "Forest House Dungeon";
+		to = "Waldhaus Dungeon";
+	}
+	[0x0000]
+	{
+		from = "Gothar's Armory";
+		to = "Gothars Waffenschmiede";
+	}
+	[0x0000]
+	{
+		from = "Aktovia Potions Shop";
+		to = "Aktovia Tränke Shop";
+	}
+	[0x0000]
+	{
+		from = "The Koritschtown Inn";
+		to = "Wirtshaus zu Koritschtown";
+	}
+	[0x0000]
+	{
+		from = "Rutar's Mules";
+		to = "Rutars Mulis";
+	}
+
+    // names
+	[0x0000]
+	{
+		from = "Miranda, lady of the Hunter House";
+		to = "Miranda, Herrin des Jägerhauses";
+	}
+	[0x0000]
+	{
+		from = "Silverhorse";
+		to = "Silberschimmel";
+	}
+	[0x0000]
+	{
+		from = "Goldhorse";
+		to = "Goldschimmel";
+	}
+
+    // items
+	[0x0000]
+	{
+		from = "History of the Warriors of Hell";
+		to = "Geschichte der Warriors of Hell";
+	}
 }

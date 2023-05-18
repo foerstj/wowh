@@ -22,7 +22,7 @@
 {
 	[common]
 	{
-		screen_name = "Jägerhaus";
+		screen_name = "Hunter House";
 	}
 	[placement]
 	{
@@ -34,7 +34,7 @@
 {
 	[common]
 	{
-		screen_name = "Bauerhof";
+		screen_name = "Farm";
 	}
 	[placement]
 	{

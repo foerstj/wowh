@@ -2,7 +2,7 @@
 {
 	[common]
 	{
-		screen_name = "Zum Waldhaus Dungeon";
+		screen_name = "To the Forest House Dungeon";
 	}
 	[placement]
 	{
@@ -14,7 +14,7 @@
 {
 	[common]
 	{
-		screen_name = "Zur Bärenhöle";
+		screen_name = "To the bear cave";
 	}
 	[placement]
 	{

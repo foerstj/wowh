@@ -2,7 +2,7 @@
 {
 	[common]
 	{
-		screen_name = "Gothar's Waffenschmide";
+		screen_name = "Gothar's Armory";
 	}
 	[placement]
 	{
@@ -38,7 +38,7 @@
 {
 	[common]
 	{
-		screen_name = "Aktovia Tränke Shop";
+		screen_name = "Aktovia Potions Shop";
 	}
 	[placement]
 	{
@@ -58,7 +58,7 @@
 {
 	[common]
 	{
-		screen_name = "Wirtshaus zu Koritschtown";
+		screen_name = "The Koritschtown Inn";
 	}
 	[placement]
 	{
@@ -85,7 +85,7 @@
 {
 	[common]
 	{
-		screen_name = "Rutar's Mulis";
+		screen_name = "Rutar's Mules";
 	}
 	[placement]
 	{

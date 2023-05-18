@@ -16,7 +16,7 @@
 {
 	[common]
 	{
-		screen_name = "Waldhaus";
+		screen_name = "Forest House";
 	}
 	[placement]
 	{
@@ -27,7 +27,7 @@
 {
 	[common]
 	{
-		screen_name = "Jägerhaus";
+		screen_name = "Hunter House";
 	}
 	[placement]
 	{
