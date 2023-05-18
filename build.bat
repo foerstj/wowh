@@ -46,6 +46,12 @@ robocopy "%doc_dsloa%\Bits\world\maps\%map%" "%tmp%\Bits\world\maps\%map%" /E
 pushd %gaspy%
 venv\Scripts\python -m build.fix_start_positions_required_levels %map% "%tmp%\Bits"
 if %errorlevel% neq 0 pause
+setlocal EnableDelayedExpansion
+if "%mode%"=="release" (
+  venv\Scripts\python -m build.add_world_levels %map% "%tmp%\Bits" "%doc_dsloa%\Bits"
+  if !errorlevel! neq 0 pause
+)
+endlocal
 popd
 %tc%\RTC.exe -source "%tmp%\Bits" -out "%ds%\DSLOA\%map_cs%.dsmap" -copyright "Superalf, Warriors of Hell 2002" -title "%map_cs%" -author "Johannes Förstner"
 if %errorlevel% neq 0 pause
