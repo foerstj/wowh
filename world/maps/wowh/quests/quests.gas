@@ -32,7 +32,7 @@
 		screen_name = "Der gefähliche Weg";
 		[*]
 		{
-			address = waldhaus_dungoen_zu_start:conversations:conv_jarola;
+			address = dungeon_forest2hunter:conversations:conv_jarola;
 			description = "Überbring' Miranda die Nachricht";
 			order = 0;
 			required = true;
@@ -46,7 +46,7 @@
 		screen_name = "Der gefähliche Weg";
 		[*]
 		{
-			address = waldhaus_dungoen_zu_start:conversations:conv_jarola_multiplayer;
+			address = dungeon_forest2hunter:conversations:conv_jarola_multiplayer;
 			description = "Überbringt Miranda die Nachricht";
 			order = 0;
 			required = true;
@@ -60,7 +60,7 @@
 		screen_name = "Der geheime Raum";
 		[*]
 		{
-			address = waldhaus_dungoen_zu_start:conversations:conv_tegum;
+			address = dungeon_forest2hunter:conversations:conv_tegum;
 			description = "Vernichte alle Monster im geheimen Raum und durchsuche die Truhen.";
 			order = 0;
 			required = true;
@@ -74,7 +74,7 @@
 		screen_name = "Mirandas Mann";
 		[*]
 		{
-			address = start:conversations:azunite_kaufen;
+			address = hunter_house:conversations:azunite_kaufen;
 			description = "Suche in der Gruft nach Miranda's Mann, Degaar.";
 			order = 0;
 			required = true;
@@ -82,7 +82,7 @@
 		}
 		[*]
 		{
-			address = jaegerhaus_crypt:conversations:degaar;
+			address = hunter_house_crypt:conversations:degaar;
 			description = "Sprecht mit Miranda";
 			order = 1;
 			required = true;
@@ -96,7 +96,7 @@
 		screen_name = "Ordim's Keller";
 		[*]
 		{
-			address = akt1:conversations:conv_ordim;
+			address = forest_house:conversations:conv_ordim;
 			description = "Erledige alle Monster im Keller";
 			order = 0;
 			required = true;
@@ -105,7 +105,7 @@
 		}
 		[*]
 		{
-			address = akt1:conversations:conv_ordim_2;
+			address = forest_house:conversations:conv_ordim_2;
 			description = "Spreche mit Ordim";
 			order = 1;
 			required = true;
@@ -120,7 +120,7 @@
 		screen_name = "Nachricht von Sumerka";
 		[*]
 		{
-			address = zur_stadt_akt1_a1:conversations:sumerka;
+			address = town:conversations:sumerka;
 			description = "Übermittle die Nachricht von Sumerka";
 			order = 0;
 			required = true;
@@ -128,5 +128,4 @@
 			speaker = "Sumerka";
 		}
 	}
-
 }
