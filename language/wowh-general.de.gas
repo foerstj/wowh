@@ -45,4 +45,88 @@
 		from = "the Crypt";
 		to = "die Gruft";
 	}
+
+    // lore
+	[0x0000]
+	{
+		from = "For a long time, Krug, Elves and Men lived peacefully together. But one day the Krug started to change. Their appearance became ugly and their morale sank into bottomless depth. Nobody knows why this happens. According to legend, something like this already happened once thousands of years ago. Back then, according to legend, they still existed, the ultimate warriors who feared nothing and nobody and stood up for Good. Strong as a bear, smart as a fox, fast as an eagle. These warriors restored Good back then. Later, in times of peace, warriors were not needed anymore, and so the heroes vanished. BUT now the time is ripe for heroes again. Even more, they are NEEDED. And so, some lonely wanderers set out on a long journey to become such a warrior of legend, a WARRIOR of HELL...";
+		to = "Lange Zeit lebten Krugs, Elfen und Menschen in friedlicher Nachbarschaft. Doch eines Tages fingen die Krugs an sich zu verändern. Ihr Äußeres wurde hässlich und ihre Gesinnung sank ins maßlose Tief. Keiner weiß, warum das geschieht. Nach der Legende geschah so etwas ähnliches schon einmal vor vielen tausend Jahren. Damals, so die Legende, gab es sie noch, die ultimativen Kämpfer, die nichts und niemanden fürchteten und sich überall für das Gute einsetzten. Stark wie ein Bär, schlau wie ein Fuchs, schnell wie ein Adler. Diese Kämpfer haben damals das Gute wiederhergestellt. In Friedenszeiten wurden später keine Kämpfer mehr gebraucht und so verschwanden die Helden. ABER jetzt ist die Zeit wieder reif für Helden. Mehr noch, sie werden GEBRAUCHT. Und so machen sich einige einsame Wanderer auf einen langen Weg, um so ein Kämpfer wie in der Legende zu werden, zu einem WARRIOR OF HELL...";
+	}
+
+    // quests
+	[0x0000]
+	{
+		from = "Chapter 1: The long Journey";
+		to = "Kapitel 1: Der lange Weg";
+	}
+	[0x0000]
+	{
+		from = "Chapter 2: The Dangerous Mines";
+		to = "Kapitel 2: Die Gefährlichen Minen";
+	}
+	[0x0000]
+	{
+		from = "Beyond the high forest, there is a big mine. Nobody knows who built it, but according to tales it is over 1000 years old. Dark creatures reportedly walk abroad in the mine, and rule the lands.";
+		to = "Hinter dem hohen Wald gibt es eine große Mine. Keiner weiß wer sie gebaut hat, aber der Erzählung nach soll sie über 1000 Jahre alt sein. In der Mine sollen dunklen Kreaturen ihr Unwesen treiben, und das ganze Land beherrschen.";
+	}
+	[0x0000]
+	{
+		from = "The dangerous road";
+		to = "Der gefährliche Weg";
+	}
+	[0x0000]
+	{
+		from = "Deliver the message to Miranda";
+		to = "Überbringt Miranda die Nachricht";
+	}
+	[0x0000]
+	{
+		from = "The secret room";
+		to = "Der geheime Raum";
+	}
+	[0x0000]
+	{
+		from = "Kill all monsters in the secret room and search the chests.";
+		to = "Vernichte alle Monster im geheimen Raum und durchsuche die Truhen.";
+	}
+	[0x0000]
+	{
+		from = "Miranda's husband";
+		to = "Mirandas Mann";
+	}
+	[0x0000]
+	{
+		from = "Search the crypt for Miranda's husband, Degaar.";
+		to = "Suche in der Gruft nach Mirandas Mann, Degaar.";
+	}
+	[0x0000]
+	{
+		from = "Talk to Miranda";
+		to = "Sprecht mit Miranda";
+	}
+	[0x0000]
+	{
+		from = "Ordim's cellar";
+		to = "Ordims Keller";
+	}
+	[0x0000]
+	{
+		from = "Kill all monsters in the cellar";
+		to = "Erledige alle Monster im Keller";
+	}
+	[0x0000]
+	{
+		from = "Talk to Ordim";
+		to = "Spreche mit Ordim";
+	}
+	[0x0000]
+	{
+		from = "Message from Sumerka";
+		to = "Nachricht von Sumerka";
+	}
+	[0x0000]
+	{
+		from = "Deliver the message from Sumerka";
+		to = "Übermittle die Nachricht von Sumerka";
+	}
 }
