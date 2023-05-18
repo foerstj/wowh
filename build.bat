@@ -22,6 +22,16 @@ echo %mode%
 pushd %gaspy%
 venv\Scripts\python -m build.check_player_world_locations %map%
 if %errorlevel% neq 0 pause
+venv\Scripts\python -m build.check_lore %map%
+if %errorlevel% neq 0 pause
+venv\Scripts\python -m build.check_moods %map%
+if %errorlevel% neq 0 pause
+venv\Scripts\python -m build.check_quests %map%
+if %errorlevel% neq 0 pause
+venv\Scripts\python -m build.check_dupe_node_ids %map%
+if %errorlevel% neq 0 pause
+venv\Scripts\python -m build.check_tips %map%
+if %errorlevel% neq 0 pause
 popd
 
 :: Compile map file
