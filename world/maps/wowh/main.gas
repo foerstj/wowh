@@ -1,10 +1,10 @@
 [t:map,n:map]
 {
+	screen_name = "Welt der Warriors of Hell (remastered)";
 	description = "  ---=== Die Legende der Warrios of Hell ===---    Kann Einzeln und im Multiplayer-Modus gespielt werden.";
   b dev_only = false;
-	screen_name = "Welt der Warriors of Hell (remastered)";
 	timeofday = 0h0m;
-  b use_node_mesh_index = false;
+  b use_node_mesh_index = true;
   f world_frustum_radius = 45.000000;
   f world_interest_radius = 4.000000;
 	[camera]
@@ -29,14 +29,12 @@
 			description = "Players of all levels can play here.";
 			required_level = 0;
 		}
-
 		[veteran]
 		{
 			screen_name = "Veteran";
 			description = "Must be level 54 or higher to accept this challenge.";
 			required_level = 54;
 		}
-
 		[elite]
 		{
 			screen_name = "Elite";
