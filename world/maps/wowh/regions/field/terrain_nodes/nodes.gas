@@ -15638,7 +15638,7 @@
 	}
 	[t:snode,n:0x9e3d075a]
 	{
-	  b bounds_camera = true;
+	  b bounds_camera = false;
 	  b camera_fade = false;
 	  x guid = 0x9E3D075A;
 	  x mesh_guid = 0x0060046B;
@@ -19937,7 +19937,7 @@
 	}
 	[t:snode,n:0xbfb38b30]
 	{
-	  b bounds_camera = true;
+	  b bounds_camera = false;
 	  b camera_fade = false;
 	  x guid = 0xBFB38B30;
 	  x mesh_guid = 0x0060046B;
@@ -22501,7 +22501,7 @@
 	}
 	[t:snode,n:0xda90596c]
 	{
-	  b bounds_camera = true;
+	  b bounds_camera = false;
 	  b camera_fade = false;
 	  x guid = 0xDA90596C;
 	  x mesh_guid = 0x00600468;
