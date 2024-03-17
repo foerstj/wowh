@@ -99,6 +99,7 @@
 {
 	[common]
 	{
+		dev_instance_text = "PWL";
 	  b is_single_player = false;
 		[instance_triggers]
 		{
@@ -128,6 +129,7 @@
 {
 	[common]
 	{
+		dev_instance_text = "FADES, PWL";
 		[instance_triggers]
 		{
 			[*]
@@ -173,6 +175,7 @@
 {
 	[common]
 	{
+		dev_instance_text = "FADES";
 		[instance_triggers]
 		{
 			[*]
@@ -260,6 +263,7 @@
 {
 	[common]
 	{
+		dev_instance_text = "MOOD, PWL";
 		[instance_triggers]
 		{
 			[*]
@@ -304,6 +308,7 @@
 {
 	[common]
 	{
+		dev_instance_text = "FADES, MOOD, PWL";
 		[instance_triggers]
 		{
 			[*]
@@ -349,6 +354,7 @@
 {
 	[common]
 	{
+		dev_instance_text = "FADES, MOOD";
 		[instance_triggers]
 		{
 			[*]
