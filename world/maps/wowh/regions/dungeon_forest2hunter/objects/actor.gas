@@ -43,13 +43,13 @@
 	{
 		[conversations]
 		{
-			* = conv_jarola_first;
-			* = conv_jarola_join;
-			* = conv_jarola_rejoin;
-			* = conv_jarola_reject;
 			* = conv_jarola_accept_have_money;
 			* = conv_jarola_disband;
 			* = conv_jarola_disband_rejoin;
+			* = conv_jarola_first;
+			* = conv_jarola_join;
+			* = conv_jarola_reject;
+			* = conv_jarola_rejoin;
 		}
 	}
 	[mind]

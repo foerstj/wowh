@@ -1,13 +1,13 @@
 [node_mesh_index]
 {
-	0x0030056f = t_xxx_dgn_cnr_ex-ccav-a;
-	0x00300572 = t_xxx_dgn_cnr_ex-cncv-pipe-a;
-	0x00300573 = t_xxx_dgn_cnr_ex-cnvx-a;
-	0x003005a2 = t_xxx_dgn_flr_04x04-a;
-	0x003005a4 = t_xxx_dgn_flr_08x04-a;
-	0x00300611 = t_xxx_dgn_wal_archway-b;
-	0x00300612 = t_xxx_dgn_wal_ex-alcove-a;
-	0x0030061c = t_xxx_dgn_wal_ex-thick-a;
-	0x0030061d = t_xxx_dgn_wal_ex-thin-a;
-	0x0030061f = t_xxx_dgn_wal_ex-thin-pipe-h2o-a;
+	0x0030051c = t_xxx_dgn_cnr_ex-ccav-a;
+	0x0030051f = t_xxx_dgn_cnr_ex-cncv-pipe-a;
+	0x00300520 = t_xxx_dgn_cnr_ex-cnvx-a;
+	0x0030054f = t_xxx_dgn_flr_04x04-a;
+	0x00300550 = t_xxx_dgn_flr_08x04-a;
+	0x003005af = t_xxx_dgn_wal_archway-b;
+	0x003005b0 = t_xxx_dgn_wal_ex-alcove-a;
+	0x003005ba = t_xxx_dgn_wal_ex-thick-a;
+	0x003005bb = t_xxx_dgn_wal_ex-thin-a;
+	0x003005bd = t_xxx_dgn_wal_ex-thin-pipe-h2o-a;
 }
