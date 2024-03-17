@@ -1,6 +1,6 @@
 # WOWH remaster
 
-The original 3rd-party WOWH map, remastered.\
+The original 3rd-party WOWH map for vanilla DS1, remastered.\
 WOWH means World of Warriors of Hell. Warriors of Hell was a German guild of Diablo II players.
 
 ## What I did (remaster)
