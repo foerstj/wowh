@@ -20,7 +20,7 @@
 	}
 	[placement]
 	{
-	  p position = 4.23149,-2,5.12512,0xa74b9d4d;
+	  p position = 4.20361,-2,5.62762,0xa74b9d4d;
 	}
 }
 [t:sign_glb_01,n:0x0040003c]
@@ -32,7 +32,7 @@
 	[placement]
 	{
 	  q orientation = 0,1,0,-1.62921e-007;
-	  p position = 4.41657,-2,4.64679,0xa74b9d4d;
+	  p position = 4.38747,-2,4.29908,0xa74b9d4d;
 	}
 }
 [t:respawn_statue,n:0x0040000f]

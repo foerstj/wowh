@@ -14,7 +14,7 @@
 	}
 	[placement]
 	{
-	  p position = 3.79102,0,-1.6247,0x42b359ad;
+	  p position = 3.8133,0,-1.14001,0x42b359ad;
 	}
 }
 [t:sign_glb_01,n:0x0010001e]
@@ -25,8 +25,8 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,1,0,-1.78814e-007;
-	  p position = 3.97708,0,-2.02417,0x42b359ad;
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = 0.535193,-4.76837e-007,-1.98826,0xf760c43c;
 	}
 }
 [t:sign_glb_01,n:0x00100020]
@@ -38,7 +38,7 @@
 	[placement]
 	{
 	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = 3.70333,0,-1.88495,0x42b359ad;
+	  p position = 3.2205,0,-1.90784,0x42b359ad;
 	}
 }
 [t:debris_glb_bone_rock_breakable_02,n:0x001002df]
