@@ -17,18 +17,6 @@
 	  p position = 3.8133,0,-1.14001,0x42b359ad;
 	}
 }
-[t:sign_glb_01,n:0x0010001e]
-{
-	[common]
-	{
-		screen_name = "Farm";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.707107,0,0.707107;
-	  p position = 0.535193,-4.76837e-007,-1.98826,0xf760c43c;
-	}
-}
 [t:sign_glb_01,n:0x00100020]
 {
 	[common]
@@ -55,5 +43,17 @@
 	{
 	  q orientation = 0,0.615662,0,0.78801;
 	  p position = 0.971118,-1.88812,-3.49705,0xcfe7a8ff;
+	}
+}
+[t:sign_glb_01,n:0x0010001e]
+{
+	[common]
+	{
+		screen_name = "Farm";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = 0.535193,-4.76837e-007,-1.98826,0xf760c43c;
 	}
 }

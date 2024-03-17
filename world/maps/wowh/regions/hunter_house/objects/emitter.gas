@@ -48,10 +48,3 @@
 	  p position = 1.03913,-1.95855,-3.82037,0xcfe7a8ff;
 	}
 }
-[t:emt_hub_pillar,n:0x001002fa]
-{
-	[placement]
-	{
-	  p position = -0.0468631,0.5,1.09649,0xd9f4406b;
-	}
-}

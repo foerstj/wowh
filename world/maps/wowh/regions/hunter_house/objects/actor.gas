@@ -76,13 +76,6 @@
 	  p position = -2.5559,-4.64029,-5.29841,0x1d039d2e;
 	}
 }
-[t:bird,n:0x001002e3]
-{
-	[placement]
-	{
-	  p position = 2.36,-4.5347,-4.98619,0x1d039d2e;
-	}
-}
 [t:wolf_gray,n:0x0010003e]
 {
 	[placement]
