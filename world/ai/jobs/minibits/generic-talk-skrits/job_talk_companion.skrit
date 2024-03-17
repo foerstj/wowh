@@ -12,7 +12,7 @@ property    string  namespace$  = "companion"   doc = "Namespace for conversatio
 property    string  oid$                        doc = "Object ID, lower-case hex, no leading zeroes, e.g. 0x17001af";
 property    int     more_gold$  = 0             doc = "Demand more gold to rejoin after being disbanded";
 property    int     more_gold2$ = 0             doc = "Demand more gold to join when asked twice";
-property    bool    first$      = false         doc = "Whether to have a first conversation";
+property    int     first$      = 0             doc = "If there is a first conversation: number of convo items";
 property    string  condition$                  doc = "Only hireable when this bool is true";
 property    bool    face_player$    = true      doc = "Face player when starting to talk";
 property    string  talk_anim$      = "talk"    doc = "Animation during convo: talk or look, or empty string";
@@ -22,6 +22,7 @@ void animate$()
 {
     if ( !StringTool.IsEmpty( talk_anim$ ) )
     {
+        // need to translate from string to FourCC
         if ( StringTool.SameNoCase( talk_anim$, "talk" ) )
         {
             TryAnim$('talk');
@@ -29,6 +30,18 @@ void animate$()
         if ( StringTool.SameNoCase( talk_anim$, "look" ) )
         {
             TryAnim$('look');
+        }
+        if ( StringTool.SameNoCase( talk_anim$, "wyme" ) )
+        {
+            TryAnim$('wyme');
+        }
+        if ( StringTool.SameNoCase( talk_anim$, "tak1" ) )
+        {
+            TryAnim$('tak1');
+        }
+        if ( StringTool.SameNoCase( talk_anim$, "tak2" ) )
+        {
+            TryAnim$('tak2');
         }
     }
     else
@@ -144,9 +157,10 @@ state Talk$
 		}
 		else
 		{
-            if ( first$ && !GameAuditor.GetDb.GetBool( MakeStringF( "%s_talked_to", namespace$ ) ) )
+            int numFirstConvoItems$ = GameAuditor.GetDb.GetInt( MakeStringF( "%s_talked_to", namespace$ ) );
+            if ( first$ > numFirstConvoItems$ )
             {
-                GameAuditor.GetDb.SetBool( MakeStringF( "%s_talked_to", namespace$ ), true );
+                GameAuditor.GetDb.SetInt( MakeStringF( "%s_talked_to", namespace$ ), numFirstConvoItems$ + 1 );
                 m_Go$.GetConversation.RSSelectConversation( MakeStringF( "%s_first", namespace$ ) );
             }
             else if ( !StringTool.IsEmpty( condition$ ) && !GameAuditor.GetDb.GetBool( condition$ ) )

@@ -54,7 +54,7 @@
 	}
 	[mind]
 	{
-		jat_talk = world\ai\jobs\generic-talk-skrits\job_talk_companion.skrit?namespace=conv_jarola&oid=0x400040&first=true;
+		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_companion.skrit?namespace=conv_jarola&oid=0x400040&first=1;
 	}
 	[placement]
 	{
