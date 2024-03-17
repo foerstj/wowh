@@ -186,6 +186,11 @@
 		from = "Rutar's Mules";
 		to = "Rutars Mulis";
 	}
+	[0x0000]
+	{
+		from = "That's all They made!";
+		to = "Mehr haben sie nicht gemacht!";
+	}
 
     // names
 	[0x0000]
