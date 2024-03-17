@@ -4,12 +4,12 @@
 :: name of map
 set map=wowh
 :: path of DSLOA documents dir (where Bits are)
-set doc_dsloa=%USERPROFILE%\Documents\Dungeon Siege LoA
+set doc_ds=%USERPROFILE%\Documents\Dungeon Siege
 :: path of DS installation
 set ds=.
 
 :: Compile dsmap file
-call "%doc_dsloa%\Bits\build.bat" %*
+call "%doc_ds%\Bits\build.bat" %*
 
 ::pause
 
@@ -17,4 +17,4 @@ call "%doc_dsloa%\Bits\build.bat" %*
 "%ds%\DSLOA.exe" nointro=true map=%map%
 
 :: Cleanup resources so as not to confuse Siege Editor
-call "%doc_dsloa%\Bits\cleanup.bat" %*
+call "%doc_ds%\Bits\cleanup.bat" %*
