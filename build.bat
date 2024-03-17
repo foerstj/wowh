@@ -14,6 +14,10 @@ set tc=..\TankCreator
 :: path of GasPy
 set gaspy=..\gaspy
 
+set copyright=Superalf, Warriors of Hell 2002
+set title=%map_cs%
+set author=Johannes Förstner
+
 :: param
 set mode=%1
 echo %mode%
@@ -45,7 +49,7 @@ if "%mode%"=="release" (
 )
 endlocal
 popd
-%tc%\RTC.exe -source "%tmp%\Bits" -out "%ds%\DSLOA\%map_cs%.dsmap" -copyright "Superalf, Warriors of Hell 2002" -title "%map_cs%" -author "Johannes Förstner"
+%tc%\RTC.exe -source "%tmp%\Bits" -out "%ds%\Maps\%map_cs%.dsmap" -copyright "%copyright%" -title "%title%" -author "%author%"
 if %errorlevel% neq 0 pause
 
 :: Compile resource file
@@ -53,7 +57,7 @@ rmdir /S /Q "%tmp%\Bits"
 robocopy "%doc_ds%\Bits\art" "%tmp%\Bits\art" /E /xf *.psd
 robocopy "%doc_ds%\Bits\ui" "%tmp%\Bits\ui" /E
 robocopy "%doc_ds%\Bits\world\ai" "%tmp%\Bits\world\ai" /E
-%tc%\RTC.exe -source "%tmp%\Bits" -out "%ds%\DSLOA\%map_cs%.dsres" -copyright "Superalf, Warriors of Hell 2002" -title "%map_cs%" -author "Johannes Förstner"
+%tc%\RTC.exe -source "%tmp%\Bits" -out "%ds%\Resources\%map_cs%.dsres" -copyright "%copyright%" -title "%title%" -author "%author%"
 if %errorlevel% neq 0 pause
 
 if not "%mode%"=="light" (
