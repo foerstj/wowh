@@ -25,4 +25,19 @@
     id = 0105;
     screen_name = "the Crypt";
   }
+  [t:location,n:field]
+  {
+    id = 0106;
+    screen_name = "the Field";
+  }
+  [t:location,n:cave]
+  {
+    id = 0107;
+    screen_name = "the Cave";
+  }
+  [t:location,n:town]
+  {
+    id = 0108;
+    screen_name = "Koritschtown";
+  }
 }

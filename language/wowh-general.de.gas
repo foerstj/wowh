@@ -18,6 +18,11 @@
 		from = "The Forest House";
 		to = "Das Waldhaus";
 	}
+	[0x0000]
+	{
+		from = "Koritschtown";
+		to = "Koritschtown";
+	}
 
     // player world locations
 	[0x0000]
@@ -44,6 +49,21 @@
 	{
 		from = "the Crypt";
 		to = "die Gruft";
+	}
+	[0x0000]
+	{
+		from = "the Field";
+		to = "das Feld";
+	}
+	[0x0000]
+	{
+		from = "the Cave";
+		to = "die Höhle";
+	}
+	[0x0000]
+	{
+		from = "Koritschtown";
+		to = "Koritschtown";
 	}
 
     // lore
