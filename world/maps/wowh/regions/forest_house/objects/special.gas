@@ -407,7 +407,7 @@
 	[interface_fade]
 	{
 	  f duration = 8;
-		interface = "chapter_1";
+		interface = "wowh_chapter_1";
 	}
 	[placement]
 	{

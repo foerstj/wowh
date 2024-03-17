@@ -1,4 +1,4 @@
-[chapter_1]
+[wowh_chapter_1]
 {
   b interface = true;
 	centered = fade_window;
@@ -9,7 +9,7 @@
 		common_template = ;
 	  i draw_order = 1;
 		rect = 0,0,256,256;
-		texture = b_gui_nis_ch01;
+		texture = b_gui_nis_wowh_ch01;
 		uvcoords = 0.000000,0.000000,1.000000,1.000000;
 		wrap_mode = clamp;
 		pass_through = true;
