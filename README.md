@@ -20,14 +20,20 @@ This map is re-buildable and editable. I opened & saved every region in Siege Ed
 ## What I did (revisit)
 
 Building on the remaster, for the revisited version I did the following changes:
-- Translate texts to English, and add an optional German re-translation file (basically the original texts but I allowed myself to fix some typos)
-- Make PWL triggers multiplayer-only
-- Fix some annoying cam-blocking nodes
-- Fix conversation of Gothar and Jarola
-- Brush up plants (randomize size & orientation)
-- Fix doors (pathfinding & double doors)
-- Make Veteran and Elite actually work
-- Add a sign at the end
+- Translated texts to English, and add an optional German re-translation file (basically the original texts but I allowed myself to fix some typos)
+- Made PWL triggers multiplayer-only, added missing PWLs
+- Fixed some annoying cam-blocking nodes
+- Fixed conversation of Gothar and Jarola
+- Brushed up plants (randomize size & orientation)
+- Fixed misplaced plants
+- Fixed doors (pathfinding & double doors)
+- Made Veteran and Elite actually work
+- Added a sign at the end
+- Cleaned up a few objects assumably placed for testing
+- Consistent North vector for compass
+- Fixed interference between WOWH and KoE chapter display
+- Fixed terrain texture borders
+- Added use-point for loot on altar
 
 ## How to build
 
