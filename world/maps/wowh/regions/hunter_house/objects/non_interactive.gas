@@ -1154,7 +1154,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.913545,0,-0.406737;
-	  p position = 0.261106,-5.63195,-1.47752,0x3b0a5f93;
+	  p position = 0.383507,-6,-1.95382,0x3b0a5f93;
 	}
 }
 [t:tree_grs_pine_group_03,n:0x00100336]
@@ -3862,7 +3862,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.292372,0,0.956305;
-	  p position = 1.76117,0,-1.54988,0xd9636867;
+	  p position = 1.76117,8,-1.54988,0xd9636867;
 	}
 }
 [t:branch_swp_10,n:0x001002f7]
@@ -3870,7 +3870,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.961262,0,0.275637;
-	  p position = 2.72636,0,-1.53606,0x8dab933c;
+	  p position = 2.72636,12,-1.53606,0x8dab933c;
 	}
 }
 [t:pipe_swp_sludge,n:0x001002ee]
@@ -3938,7 +3938,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.999848,0,0.0174523;
-	  p position = -3.51086,9.21534,1.36716,0xbc3d2f4b;
+	  p position = -3.51086,12,1.36716,0xbc3d2f4b;
 	}
 }
 [t:grass_des_03,n:0x001002ad]
@@ -3958,7 +3958,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.515038,0,-0.857167;
-	  p position = -0.0448465,7.78686,1.24666,0x93e65061;
+	  p position = -0.0448465,8,1.24666,0x93e65061;
 	}
 }
 [t:mushrooms_cav_02,n:0x001002c0]
@@ -3994,7 +3994,7 @@
 	[placement]
 	{
 	  q orientation = 0,-0.333807,0,0.942641;
-	  p position = 5.25327,7.74319,0.00332263,0x2dacdab3;
+	  p position = 5.25327,8,0.00332263,0x2dacdab3;
 	}
 }
 [t:debris_cav_sm_01,n:0x001002dc]
@@ -4133,7 +4133,7 @@
 	[placement]
 	{
 	  q orientation = 0,-0.688354,0,0.725375;
-	  p position = -2.04798,3.36525,-2.1284,0xcfe7a8ff;
+	  p position = -2.04798,8,-2.1284,0xcfe7a8ff;
 	}
 }
 [t:branch_swp_08,n:0x001002f2]
@@ -4141,7 +4141,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.544639,0,0.838671;
-	  p position = 1.70762,0.697161,0.487108,0xcfe7a8ff;
+	  p position = 1.70762,8,0.487108,0xcfe7a8ff;
 	}
 }
 [t:branch_swp_08,n:0x001002f3]
@@ -4149,7 +4149,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.994522,0,0.104528;
-	  p position = 2.71109,-1.72381,-2.71957,0xcfe7a8ff;
+	  p position = 2.71109,8,-2.71957,0xcfe7a8ff;
 	}
 }
 [t:tree_swp_02,n:0x001002c2]
