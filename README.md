@@ -24,7 +24,6 @@ This map is re-buildable and editable. I opened & saved every region in Siege Ed
 - Converted to node_mesh_index
 
 ## What I did (revisit)
-
 Building on the remaster, for the revisited version I did the following changes:
 - Translated texts to English, and add an optional German re-translation file (basically the original texts but I allowed myself to fix some typos)
 - Made PWL triggers multiplayer-only, added missing PWLs
