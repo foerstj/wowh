@@ -10,7 +10,6 @@
 	0x0070061e = t_xxx_flr_08x08-v0;
 	0x0070061f = t_xxx_flr_08x08-v1;
 	0x00700621 = t_xxx_flr_08x08-v3;
-	0x007007c5 = t_xxx_rmp_cnr-ccav;
 	0x007007ce = t_xxx_rmp_pth-staircase;
 	0x007007d4 = t_xxx_rmp_thck;
 	0x007007d5 = t_xxx_rmp_thin;

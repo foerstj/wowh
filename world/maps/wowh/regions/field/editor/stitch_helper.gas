@@ -7,7 +7,7 @@
 		dest_region = cave_field2town;
 		[node_ids]
 		{
-			0x0000000e = 0xCA826354,6;
+			0x0000000e = 0xD71C218E,6;
 		}
 	}
 	[t:stitch_editor,n:hunter_house]
