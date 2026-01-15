@@ -6575,6 +6575,13 @@
 	  p position = 4.00864,-2.03118,-0.0727235,0x4ebd9218;
 	}
 }
+[t:wood_glb_pile_fireplace_burnt,n:0x00200017]
+{
+	[placement]
+	{
+	  p position = -3.79692,-3.64989,0.161072,0x4ebd9218;
+	}
+}
 [t:candle_glb_skull_01,n:0x00200019]
 {
 	[placement]
@@ -10684,12 +10691,5 @@
 	{
 	  q orientation = 0,0.991407,0,-0.130813;
 	  p position = -1.50357,-0.250002,-0.974279,0xc8d4a695;
-	}
-}
-[t:wood_glb_pile_fireplace_burnt,n:0x00200017]
-{
-	[placement]
-	{
-	  p position = -5.36649,3.00011,0.159983,0xaed686d7;
 	}
 }
