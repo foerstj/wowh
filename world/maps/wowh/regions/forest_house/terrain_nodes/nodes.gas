@@ -16685,13 +16685,13 @@
 	[t:snode,n:0xee631aa1]
 	{
 	  b bounds_camera = false;
-	  b camera_fade = true;
+	  b camera_fade = false;
 	  x guid = 0xEE631AA1;
 	  x mesh_guid = 0x00200B48;
-	  x nodelevel = 0xFFFFFFFF;
+	  x nodelevel = 0x00000001;
 	  x nodeobject = 0xFFFFFFFF;
 	  x nodesection = 0x00000001;
-	  b occludes_camera = false;
+	  b occludes_camera = true;
 	  b occludes_light = true;
 		texsetabbr = xxx;
 		[door*]
