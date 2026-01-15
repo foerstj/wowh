@@ -445,12 +445,13 @@
 {
 	[common]
 	{
-		dev_instance_text = "MOOD, PWL";
+		dev_instance_text = "MOOD, PWL, FADE";
 		[instance_triggers]
 		{
 			[*]
 			{
 				action* = mood_change("map_world_fh_r1_2");
+				action* = fade_nodes(0x00000001,1,2,-1,"in");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(2.000000,2.000000,2.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -498,6 +499,7 @@
 				action* = fade_nodes(0x00000001,1,-1,-1,"in");
 				action* = fade_nodes(0x00000001,2,-1,-1,"in");
 				action* = mood_change("map_world_fh_r1_4");
+				action* = fade_nodes(0x00000001,1,2,-1,"out:black");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(2.000000,0.500000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
