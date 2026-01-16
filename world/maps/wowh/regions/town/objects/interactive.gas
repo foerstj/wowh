@@ -15,7 +15,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.987688,0,0.156434;
-	  p position = 3.85328,-3.1,-6.82681,0xa40e23df;
+	  p position = 3.67849,-3.1,-6.35574,0xa40e23df;
 	}
 }
 [t:door_grs_ornate_left,n:0x008000da]
@@ -27,7 +27,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.819152,0,0.573576;
-	  p position = 11.9237,-3.9,-2.87482,0xb9e92729;
+	  p position = 11.7881,-3.9,-2.83989,0xb9e92729;
 	}
 }
 [t:door_grs_ornate_right,n:0x008000db]
@@ -39,7 +39,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.814116,0,0.580703;
-	  p position = 10.985,-3.9,-5.5192,0xb9e92729;
+	  p position = 10.8636,-3.9,-5.46581,0xb9e92729;
 	}
 }
 [t:sign_glb_magicshop_01,n:0x00800161]
@@ -75,7 +75,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.707107,0,0.707107;
-	  p position = 9.78337,-1.5,1.26939,0xfdec2722;
+	  p position = 9.2859,-1.5,1.29745,0xfdec2722;
 	}
 }
 [t:sign_glb_inn_02,n:0x008000e1]
@@ -98,7 +98,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.0958458,0,0.995396;
-	  p position = 5.57703,-1.9,7.41422,0x4711ed0e;
+	  p position = 5.54237,-1.9,7.19558,0x4711ed0e;
 	}
 }
 [t:door_grs_barn_right,n:0x008000dd]
@@ -110,7 +110,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.0958458,0,0.995396;
-	  p position = 8.29452,-1.9,6.87687,0x4711ed0e;
+	  p position = 8.28823,-1.9,6.69407,0x4711ed0e;
 	}
 }
 [t:sign_glb_barn_02,n:0x00800165]
@@ -129,7 +129,22 @@
 {
 	[placement]
 	{
-	  p position = 5.89381,-2.65,-0.610252,0x3c66dcce;
+	  p position = 5.89109,-2.65,-0.904655,0x3c66dcce;
+	}
+}
+[t:door_grs_queensmen_right,n:0x008001c4]
+{
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -4.64714,-2.65,1.05936,0x3c66dcce;
+	}
+}
+[t:door_grs_queensmen_left,n:0x008001d5]
+{
+	[placement]
+	{
+	  p position = -3.58967,-2.65,-0.878464,0x3c66dcce;
 	}
 }
 [t:door_grs_queensmen_right,n:0x008000d6]
@@ -137,6 +152,6 @@
 	[placement]
 	{
 	  q orientation = 0,0.923879,0,-0.382684;
-	  p position = -4.68186,-4.25,-2.67723,0x054435f2;
+	  p position = -4.53726,-4.25,-2.55536,0x054435f2;
 	}
 }
