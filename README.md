@@ -39,6 +39,10 @@ Building on the remaster, for the revisited version I did the following changes:
 - Fixed interference between WOWH and KoE chapter display
 - Fixed terrain texture borders
 - Added use-point for loot on altar
+- Polished roof fading of houses
+- Polished weird fading at entrance of cave before town
+- Added doors in inn upper level
+- Improved idle / talk animation for Sumerka
 
 ## How to build
 GasPy repo: https://github.com/foerstj/gaspy
