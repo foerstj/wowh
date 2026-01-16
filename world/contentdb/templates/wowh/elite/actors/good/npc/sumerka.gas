@@ -1,0 +1,31 @@
+[t:template,n:3W_wowh_sumerka]
+{
+	specializes = 3W_base_npc_fg_talk;
+
+	category_name = "3W_townsperson";
+	doc = "3W_mp_townfolk_female_01";
+	[aspect]
+	{
+		[textures]
+		{
+			0 = b_c_gah_fg_skin_22;
+			1 = b_c_pos_a1_059;
+		}
+	}
+	[common]
+	{
+		screen_name = "Sumerka";
+	}
+	[inventory]
+	{
+		custom_head = m_c_gah_fg_hlmt_head-02;
+		[equipment]
+		{
+			es_feet = bo_bo_le_light;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_npc.skrit;
+	}
+}

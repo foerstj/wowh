@@ -131,22 +131,14 @@
 	  p position = -0.823006,-1.9,2.00877,0x4711ed0e;
 	}
 }
-[t:mp_townfolk_female_01,n:0x0080016d]
+[t:wowh_sumerka,n:0x0080016d]
 {
-	[common]
-	{
-		screen_name = "Sumerka";
-	}
 	[conversation]
 	{
 		[conversations]
 		{
 			* = sumerka;
 		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk.skrit;
 	}
 	[placement]
 	{
