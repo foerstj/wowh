@@ -1,3 +1,5 @@
-/world/contentdb
+/world/contentdb/components
+/world/contentdb/templates/regular
+/world/contentdb/templates/veteran
+/world/contentdb/templates/elite
 /world/global
-/world/maps/wohworld
