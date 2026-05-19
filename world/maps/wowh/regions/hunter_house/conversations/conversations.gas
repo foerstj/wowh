@@ -6,6 +6,7 @@
 		choice = shop;
 	  i order = 1;
 	  b quest_dialogue = true;
+		sample = s_v_xp_hunter_house_azunite_1;
 		screen_text = "My husband went lost out at the cemetery crypt. I wanted to bring him a few healing potions and then he was gone.
 I fear for the worst. Please search for him and tell me when you found him.
 But first buy a few bottles and spells, if you need.";
@@ -15,6 +16,7 @@ But first buy a few bottles and spells, if you need.";
 	{
         choice = more;
 	  i order = 0;
+		sample = s_v_xp_hunter_house_azunite_2;
 		screen_text = "Ah... Welcome to our little house.
 Thanks for the message. We've noticed it getting worse here already.";
 	  f scroll_rate = 10.000000;
@@ -22,17 +24,20 @@ Thanks for the message. We've noticed it getting worse here already.";
 	[text*]
 	{
 		choice = shop;
+		sample = s_v_xp_hunter_house_azunite_3;
 		screen_text = "I'll wait for you to return.
 You can of course still buy some more.";
 	  f scroll_rate = 10.000000;
 	}
 }
+
 [conv_miranda_2]
 {
 	[text*]
 	{
 		choice = shop;
 	  i order = 0;
+		sample = s_v_xp_hunter_house_azunite_4;
 		screen_text = "I feared it. (*sob*)
 Then I can at least bury him properly. I hope you have killed all monsters out there.";
 	  f scroll_rate = 10.000000;
@@ -40,6 +45,7 @@ Then I can at least bury him properly. I hope you have killed all monsters out t
 	[text*]
 	{
 		choice = shop;
+		sample = s_v_xp_hunter_house_azunite_5;
 		screen_text = "(*quiet crying*) My poor husband.
 Buy what you need.";
 	  f scroll_rate = 10.000000;

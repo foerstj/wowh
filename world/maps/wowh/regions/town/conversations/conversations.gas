@@ -3,35 +3,43 @@
 	[text*]
 	{
 		choice = shop;
+		sample = s_v_xp_town_aktovia_1;
 		screen_text = "Hello lonely wanderer. I am Aktovia the high priestess of Koritschtown.
 I can offer you potions and spells for little gold.";
 	  f scroll_rate = 10.000000;
 	}
 }
+
 [gothar]
 {
 	[text*]
 	{
+		sample = s_v_xp_town_gothar_1;
 		screen_text = "Ah lonely wanderer. My name is Gothar. I am the smith in Koritschtown. If you need weapons or armors, ask inside the house. I only manufacture the weapons and armors.";
 	  f scroll_rate = 10.000000;
 	}
 }
+
 [kelar]
 {
 	[text*]
 	{
+		sample = s_v_xp_town_kelar_1;
 		screen_text = "I am Kelar the host. Since the Krug attack, business is running badly. Nobody comes to Koritschtown anymore and buys something here.";
 	  f scroll_rate = 10.000000;
 	}
 }
+
 [rutar]
 {
 	[text*]
 	{
+		sample = s_v_xp_town_rutar_1;
 		screen_text = "Good morning, lonely wanderer. My name is Rutar. Normally I have mules for sale, but the times for a mule seller are conceivably bad.";
 	  f scroll_rate = 10.000000;
 	}
 }
+
 [sumerka]
 {
 	[text*]
@@ -39,19 +47,23 @@ I can offer you potions and spells for little gold.";
 		activate_quest* = quest_sumerka;
 	  i order = 0;
 	  b quest_dialogue = true;
+		sample = s_v_xp_town_sumerka_1;
 		screen_text = "Good morning, lonely wanderer. I have a request for you. My brother Albera went to the mines a few days ago to fight against the dark creatures. I fear that he won't make it alone. If you see my brother, tell him to return to Koritschtown.";
 	  f scroll_rate = 10.000000;
 	}
 	[text*]
 	{
+		sample = s_v_xp_town_sumerka_2;
 		screen_text = "Have you given the message to my brother yet?";
 	}
 }
+
 [morpheus]
 {
 	[text*]
 	{
 		choice = shop;
+		sample = s_v_xp_town_morpheus_1;
 		screen_text = "I am Morpheus the son of Gothar. I sell the best weapons and armors in all of Koritschtown.";
 	  f scroll_rate = 10.000000;
 	}

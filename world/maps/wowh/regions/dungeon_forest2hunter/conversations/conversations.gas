@@ -5,6 +5,7 @@
     choice = more;
     order = 0;
     quest_dialog = true;
+    sample = s_v_xp_dungeon_forest2hunter_jarola_1;
     screen_text = "Stop, wanderer, or should I say LIFE-WEARY! It gets damn dangerous here. On this side of the dungeon we're dealing with Krug, but the dungeon itself is cursed. Many have tried to get to the other side. The Krug here are very bad, please warn Miranda about the danger! I hope it's not too late.";
     activate_quest* = quest_danger_way;
   }
@@ -14,6 +15,7 @@
   [text*]
   {
     choice = potential_member;
+    sample = s_v_xp_dungeon_forest2hunter_jarola_2;
     screen_text = "I don't dare to go through there alone, but maybe together we stand a chance. Can I join you?";
   }
 }
@@ -22,6 +24,7 @@
   [text*]
   {
     choice = potential_member;
+    sample = s_v_xp_dungeon_forest2hunter_jarola_2;
     screen_text = "I don't dare to go through there alone, but maybe together we stand a chance. Can I join you?";
   }
 }
@@ -29,6 +32,7 @@
 {
   [text*]
   {
+    sample = s_v_xp_dungeon_forest2hunter_jarola_3;
     screen_text = "Well then die alone! Pshah!";
   }
 }
@@ -36,6 +40,7 @@
 {
   [text*]
   {
+    sample = s_v_xp_dungeon_forest2hunter_jarola_4;
     screen_text = "Yay let's go!";
   }
 }
@@ -43,6 +48,7 @@
 {
   [text*]
   {
+    sample = s_v_xp_dungeon_forest2hunter_jarola_5;
     screen_text = "Wait, what?";
   }
 }
@@ -51,6 +57,7 @@
   [text*]
   {
     choice = potential_member;
+    sample = s_v_xp_dungeon_forest2hunter_jarola_6;
     screen_text = "You want to go together again? Okay.";
   }
 }
@@ -62,11 +69,13 @@
     choice = more;
     order = 0;
     quest_dialog = true;
+    sample = s_v_xp_dungeon_forest2hunter_jarola_1;
     screen_text = "Stop, wanderer, or should I say LIFE-WEARY! It gets damn dangerous here. On this side of the dungeon we're dealing with Krug, but the dungeon itself is cursed. Many have tried to get to the other side. The Krug here are very bad, please warn Miranda about the danger! I hope it's not too late.";
     activate_quest* = quest_danger_way;
   }
   [text*]
   {
+    sample = s_v_xp_dungeon_forest2hunter_jarola_7;
     screen_text = "I don't dare to go through there. Perhaps you're lucky? Fortune favors fools.";
   }
 }
@@ -76,6 +85,7 @@
   [text*]
   {
     quest_dialog = true;
+    sample = s_v_xp_dungeon_forest2hunter_tegum_1;
     screen_text = "We were cursed to stand guard here until someone comes to conquer us. Free us from the agony and you will be richly rewarded.";
     activate_quest* = quest_danger_way_secret;
   }

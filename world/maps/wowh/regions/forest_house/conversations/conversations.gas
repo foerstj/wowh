@@ -5,24 +5,29 @@
 		activate_quest* = quest_ordim_cellar;
 	  i order = 0;
 		quest_dialog = true;
+		sample = s_v_xp_dungeon_foresthouse_ordim_1;
 		screen_text = "Good morning lonely wanderer. Do you have a few minutes time to oust the Krug from my cellar? All my supplies are stored there and I can't get to them due to the damn Krug.";
 	  f scroll_rate = 10.000000;
 	}
 	[text*]
 	{
+		sample = s_v_xp_dungeon_foresthouse_ordim_2;
 		screen_text = "Have you freed my cellar from the Krug yet?!";
 	}
 }
+
 [conv_ordim_2]
 {
 	[text*]
 	{
 	  i order = 0;
+		sample = s_v_xp_dungeon_foresthouse_ordim_3;
 		screen_text = "I thank you for freeing my cellar from the Krug. Take these bottles for your travels, and here's a tip: I've heard of a secret room in the dungeons long ago. I often searched for it, but never found it. Perhaps you'll be more lucky.";
 	  f scroll_rate = 10.000000;
 	}
 	[text*]
 	{
+		sample = s_v_xp_dungeon_foresthouse_ordim_4;
 		screen_text = "Good luck, lonely wanderer, on your travels ahead!";
 	}
 }

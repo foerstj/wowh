@@ -3,6 +3,7 @@
 	[text*]
 	{
 		order = 0;
+		sample = s_v_xp_hunter_house_crypt_degaar_1;
 		screen_text = "I didn't think I'd see another human soul. I'm glad I don't have to die alone. I wished you had found me earlier, but my wounds are already too strong...
 NO, no, keep the health bottles, I won't make it. It would just be a waste. You don't look too well yourself, so drink them yourself.
 Tell my wife Miranda I'm sorry. This is the first promise I couldn't keep.
